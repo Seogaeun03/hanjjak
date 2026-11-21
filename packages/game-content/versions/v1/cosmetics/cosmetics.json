@@ -1,0 +1,4875 @@
+{
+  "authority": "applied",
+  "contentVersion": "cosmetics-v10-expanded-catalog",
+  "singleRiceCost": 5000,
+  "gradeProbabilityMillionths": {
+    "NORMAL": 500000,
+    "RARE": 350000,
+    "EPIC": 140000,
+    "LEGENDARY": 10000
+  },
+  "starThresholdsByGrade": {
+    "NORMAL": [
+      1,
+      4,
+      16,
+      80,
+      400
+    ],
+    "RARE": [
+      1,
+      3,
+      12,
+      60,
+      300
+    ],
+    "EPIC": [
+      1,
+      2,
+      8,
+      40,
+      200
+    ],
+    "LEGENDARY": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ]
+  },
+  "cosmetics": [
+    {
+      "cosmeticId": "cosmetic-001",
+      "displayName": "가죽경갑 모자",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-01"
+    },
+    {
+      "cosmeticId": "cosmetic-002",
+      "displayName": "가죽경갑 상의",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setId": "cosmetic-set-01"
+    },
+    {
+      "cosmeticId": "cosmetic-003",
+      "displayName": "가죽경갑 무기",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-01"
+    },
+    {
+      "cosmeticId": "cosmetic-004",
+      "displayName": "가죽경갑 장갑",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-01"
+    },
+    {
+      "cosmeticId": "cosmetic-005",
+      "displayName": "가죽경갑 신발",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-01"
+    },
+    {
+      "cosmeticId": "cosmetic-006",
+      "displayName": "가죽경갑 망토",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-01"
+    },
+    {
+      "cosmeticId": "cosmetic-007",
+      "displayName": "고물기사 모자",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-02"
+    },
+    {
+      "cosmeticId": "cosmetic-008",
+      "displayName": "고물기사 상의",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setId": "cosmetic-set-02"
+    },
+    {
+      "cosmeticId": "cosmetic-009",
+      "displayName": "고물기사 무기",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-02"
+    },
+    {
+      "cosmeticId": "cosmetic-010",
+      "displayName": "고물기사 장갑",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-02"
+    },
+    {
+      "cosmeticId": "cosmetic-011",
+      "displayName": "고물기사 신발",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-02"
+    },
+    {
+      "cosmeticId": "cosmetic-012",
+      "displayName": "고물기사 망토",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-02"
+    },
+    {
+      "cosmeticId": "cosmetic-013",
+      "displayName": "죽창무사 모자",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-03"
+    },
+    {
+      "cosmeticId": "cosmetic-014",
+      "displayName": "죽창무사 상의",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setId": "cosmetic-set-03"
+    },
+    {
+      "cosmeticId": "cosmetic-015",
+      "displayName": "죽창무사 무기",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-03"
+    },
+    {
+      "cosmeticId": "cosmetic-016",
+      "displayName": "죽창무사 장갑",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-03"
+    },
+    {
+      "cosmeticId": "cosmetic-017",
+      "displayName": "죽창무사 신발",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-03"
+    },
+    {
+      "cosmeticId": "cosmetic-018",
+      "displayName": "죽창무사 망토",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-03"
+    },
+    {
+      "cosmeticId": "cosmetic-019",
+      "displayName": "아프로 가발",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-020",
+      "displayName": "아프로 안경",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-021",
+      "displayName": "아프로 신발",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-022",
+      "displayName": "볼터치",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-023",
+      "displayName": "오드아이",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-024",
+      "displayName": "악마 모자",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-04"
+    },
+    {
+      "cosmeticId": "cosmetic-025",
+      "displayName": "악마 상의",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": "cosmetic-set-04"
+    },
+    {
+      "cosmeticId": "cosmetic-026",
+      "displayName": "악마 무기",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-04"
+    },
+    {
+      "cosmeticId": "cosmetic-027",
+      "displayName": "악마 장갑",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-04"
+    },
+    {
+      "cosmeticId": "cosmetic-028",
+      "displayName": "악마 신발",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-04"
+    },
+    {
+      "cosmeticId": "cosmetic-029",
+      "displayName": "악마 망토",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-04"
+    },
+    {
+      "cosmeticId": "cosmetic-030",
+      "displayName": "천사 모자",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-05"
+    },
+    {
+      "cosmeticId": "cosmetic-031",
+      "displayName": "천사 상의",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": "cosmetic-set-05"
+    },
+    {
+      "cosmeticId": "cosmetic-032",
+      "displayName": "천사 무기",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-05"
+    },
+    {
+      "cosmeticId": "cosmetic-033",
+      "displayName": "천사 장갑",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-05"
+    },
+    {
+      "cosmeticId": "cosmetic-034",
+      "displayName": "천사 신발",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-05"
+    },
+    {
+      "cosmeticId": "cosmetic-035",
+      "displayName": "천사 망토",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-05"
+    },
+    {
+      "cosmeticId": "cosmetic-036",
+      "displayName": "거북이 수호자 모자",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-06"
+    },
+    {
+      "cosmeticId": "cosmetic-037",
+      "displayName": "거북이 수호자 상의",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": "cosmetic-set-06"
+    },
+    {
+      "cosmeticId": "cosmetic-038",
+      "displayName": "거북이 수호자 무기",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-06"
+    },
+    {
+      "cosmeticId": "cosmetic-039",
+      "displayName": "거북이 수호자 장갑",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-06"
+    },
+    {
+      "cosmeticId": "cosmetic-040",
+      "displayName": "거북이 수호자 신발",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-06"
+    },
+    {
+      "cosmeticId": "cosmetic-041",
+      "displayName": "거북이 수호자 망토",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-06"
+    },
+    {
+      "cosmeticId": "cosmetic-042",
+      "displayName": "무지개떡 모자",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-07"
+    },
+    {
+      "cosmeticId": "cosmetic-043",
+      "displayName": "무지개떡 상의",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": "cosmetic-set-07"
+    },
+    {
+      "cosmeticId": "cosmetic-044",
+      "displayName": "무지개떡 무기",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-07"
+    },
+    {
+      "cosmeticId": "cosmetic-045",
+      "displayName": "무지개떡 장갑",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-07"
+    },
+    {
+      "cosmeticId": "cosmetic-046",
+      "displayName": "무지개떡 신발",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-07"
+    },
+    {
+      "cosmeticId": "cosmetic-047",
+      "displayName": "무지개떡 망토",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-07"
+    },
+    {
+      "cosmeticId": "cosmetic-048",
+      "displayName": "청운 모자",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-08"
+    },
+    {
+      "cosmeticId": "cosmetic-049",
+      "displayName": "청운 상의",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": "cosmetic-set-08"
+    },
+    {
+      "cosmeticId": "cosmetic-050",
+      "displayName": "청운 무기",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-08"
+    },
+    {
+      "cosmeticId": "cosmetic-051",
+      "displayName": "청운 장갑",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-08"
+    },
+    {
+      "cosmeticId": "cosmetic-052",
+      "displayName": "청운 신발",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-08"
+    },
+    {
+      "cosmeticId": "cosmetic-053",
+      "displayName": "청운 망토",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-08"
+    },
+    {
+      "cosmeticId": "cosmetic-054",
+      "displayName": "요리사 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-09"
+    },
+    {
+      "cosmeticId": "cosmetic-055",
+      "displayName": "요리사 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-09"
+    },
+    {
+      "cosmeticId": "cosmetic-056",
+      "displayName": "요리사 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-09"
+    },
+    {
+      "cosmeticId": "cosmetic-057",
+      "displayName": "요리사 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-09"
+    },
+    {
+      "cosmeticId": "cosmetic-058",
+      "displayName": "요리사 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-09"
+    },
+    {
+      "cosmeticId": "cosmetic-059",
+      "displayName": "요리사 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-09"
+    },
+    {
+      "cosmeticId": "cosmetic-060",
+      "displayName": "약과 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-10"
+    },
+    {
+      "cosmeticId": "cosmetic-061",
+      "displayName": "약과 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-10"
+    },
+    {
+      "cosmeticId": "cosmetic-062",
+      "displayName": "약과 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-10"
+    },
+    {
+      "cosmeticId": "cosmetic-063",
+      "displayName": "약과 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-10"
+    },
+    {
+      "cosmeticId": "cosmetic-064",
+      "displayName": "약과 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-10"
+    },
+    {
+      "cosmeticId": "cosmetic-065",
+      "displayName": "약과 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-10"
+    },
+    {
+      "cosmeticId": "cosmetic-066",
+      "displayName": "클라이밍 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-11"
+    },
+    {
+      "cosmeticId": "cosmetic-067",
+      "displayName": "클라이밍 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-11"
+    },
+    {
+      "cosmeticId": "cosmetic-068",
+      "displayName": "클라이밍 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-11"
+    },
+    {
+      "cosmeticId": "cosmetic-069",
+      "displayName": "클라이밍 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-11"
+    },
+    {
+      "cosmeticId": "cosmetic-070",
+      "displayName": "클라이밍 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-11"
+    },
+    {
+      "cosmeticId": "cosmetic-071",
+      "displayName": "클라이밍 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-11"
+    },
+    {
+      "cosmeticId": "cosmetic-072",
+      "displayName": "오르골 상자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-073",
+      "displayName": "오르골 태엽",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-074",
+      "displayName": "오르골 지팡이",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-075",
+      "displayName": "스시야 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-12"
+    },
+    {
+      "cosmeticId": "cosmetic-076",
+      "displayName": "스시야 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-12"
+    },
+    {
+      "cosmeticId": "cosmetic-077",
+      "displayName": "스시야 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-12"
+    },
+    {
+      "cosmeticId": "cosmetic-078",
+      "displayName": "스시야 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-12"
+    },
+    {
+      "cosmeticId": "cosmetic-079",
+      "displayName": "스시야 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-12"
+    },
+    {
+      "cosmeticId": "cosmetic-080",
+      "displayName": "스시야 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-12"
+    },
+    {
+      "cosmeticId": "cosmetic-081",
+      "displayName": "마법사 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-13"
+    },
+    {
+      "cosmeticId": "cosmetic-082",
+      "displayName": "마법사 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-13"
+    },
+    {
+      "cosmeticId": "cosmetic-083",
+      "displayName": "마법사 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-13"
+    },
+    {
+      "cosmeticId": "cosmetic-084",
+      "displayName": "마법사 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-13"
+    },
+    {
+      "cosmeticId": "cosmetic-085",
+      "displayName": "마법사 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-13"
+    },
+    {
+      "cosmeticId": "cosmetic-086",
+      "displayName": "마법사 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-13"
+    },
+    {
+      "cosmeticId": "cosmetic-087",
+      "displayName": "목화화공 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-14"
+    },
+    {
+      "cosmeticId": "cosmetic-088",
+      "displayName": "목화화공 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-14"
+    },
+    {
+      "cosmeticId": "cosmetic-089",
+      "displayName": "목화화공 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-14"
+    },
+    {
+      "cosmeticId": "cosmetic-090",
+      "displayName": "목화화공 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-14"
+    },
+    {
+      "cosmeticId": "cosmetic-091",
+      "displayName": "목화화공 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-14"
+    },
+    {
+      "cosmeticId": "cosmetic-092",
+      "displayName": "목화화공 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-14"
+    },
+    {
+      "cosmeticId": "cosmetic-093",
+      "displayName": "달토끼 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-15"
+    },
+    {
+      "cosmeticId": "cosmetic-094",
+      "displayName": "달토끼 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-15"
+    },
+    {
+      "cosmeticId": "cosmetic-095",
+      "displayName": "달토끼 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-15"
+    },
+    {
+      "cosmeticId": "cosmetic-096",
+      "displayName": "달토끼 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-15"
+    },
+    {
+      "cosmeticId": "cosmetic-097",
+      "displayName": "달토끼 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-15"
+    },
+    {
+      "cosmeticId": "cosmetic-098",
+      "displayName": "달토끼 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-15"
+    },
+    {
+      "cosmeticId": "cosmetic-099",
+      "displayName": "골판지크레용 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-16"
+    },
+    {
+      "cosmeticId": "cosmetic-100",
+      "displayName": "골판지크레용 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-16"
+    },
+    {
+      "cosmeticId": "cosmetic-101",
+      "displayName": "골판지크레용 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-16"
+    },
+    {
+      "cosmeticId": "cosmetic-102",
+      "displayName": "골판지크레용 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-16"
+    },
+    {
+      "cosmeticId": "cosmetic-103",
+      "displayName": "골판지크레용 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-16"
+    },
+    {
+      "cosmeticId": "cosmetic-104",
+      "displayName": "골판지크레용 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-16"
+    },
+    {
+      "cosmeticId": "cosmetic-105",
+      "displayName": "구미호 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-17"
+    },
+    {
+      "cosmeticId": "cosmetic-106",
+      "displayName": "구미호 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-17"
+    },
+    {
+      "cosmeticId": "cosmetic-107",
+      "displayName": "구미호 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-17"
+    },
+    {
+      "cosmeticId": "cosmetic-108",
+      "displayName": "구미호 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-17"
+    },
+    {
+      "cosmeticId": "cosmetic-109",
+      "displayName": "구미호 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-17"
+    },
+    {
+      "cosmeticId": "cosmetic-110",
+      "displayName": "구미호 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-17"
+    },
+    {
+      "cosmeticId": "cosmetic-111",
+      "displayName": "도깨비 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-18"
+    },
+    {
+      "cosmeticId": "cosmetic-112",
+      "displayName": "도깨비 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-18"
+    },
+    {
+      "cosmeticId": "cosmetic-113",
+      "displayName": "도깨비 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-18"
+    },
+    {
+      "cosmeticId": "cosmetic-114",
+      "displayName": "도깨비 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-18"
+    },
+    {
+      "cosmeticId": "cosmetic-115",
+      "displayName": "도깨비 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-18"
+    },
+    {
+      "cosmeticId": "cosmetic-116",
+      "displayName": "도깨비 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-18"
+    },
+    {
+      "cosmeticId": "cosmetic-117",
+      "displayName": "마법소녀 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-19"
+    },
+    {
+      "cosmeticId": "cosmetic-118",
+      "displayName": "마법소녀 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-19"
+    },
+    {
+      "cosmeticId": "cosmetic-119",
+      "displayName": "마법소녀 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-19"
+    },
+    {
+      "cosmeticId": "cosmetic-120",
+      "displayName": "마법소녀 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-19"
+    },
+    {
+      "cosmeticId": "cosmetic-121",
+      "displayName": "마법소녀 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-19"
+    },
+    {
+      "cosmeticId": "cosmetic-122",
+      "displayName": "마법소녀 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-19"
+    },
+    {
+      "cosmeticId": "cosmetic-123",
+      "displayName": "뱀물수호자 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-20"
+    },
+    {
+      "cosmeticId": "cosmetic-124",
+      "displayName": "뱀물수호자 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-20"
+    },
+    {
+      "cosmeticId": "cosmetic-125",
+      "displayName": "뱀물수호자 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-20"
+    },
+    {
+      "cosmeticId": "cosmetic-126",
+      "displayName": "뱀물수호자 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-20"
+    },
+    {
+      "cosmeticId": "cosmetic-127",
+      "displayName": "뱀물수호자 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-20"
+    },
+    {
+      "cosmeticId": "cosmetic-128",
+      "displayName": "뱀물수호자 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-20"
+    },
+    {
+      "cosmeticId": "cosmetic-129",
+      "displayName": "번개월계관 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-21"
+    },
+    {
+      "cosmeticId": "cosmetic-130",
+      "displayName": "번개월계관 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-21"
+    },
+    {
+      "cosmeticId": "cosmetic-131",
+      "displayName": "번개월계관 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-21"
+    },
+    {
+      "cosmeticId": "cosmetic-132",
+      "displayName": "번개월계관 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-21"
+    },
+    {
+      "cosmeticId": "cosmetic-133",
+      "displayName": "번개월계관 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-21"
+    },
+    {
+      "cosmeticId": "cosmetic-134",
+      "displayName": "번개월계관 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-21"
+    },
+    {
+      "cosmeticId": "cosmetic-135",
+      "displayName": "숲의정령 모자",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-22"
+    },
+    {
+      "cosmeticId": "cosmetic-136",
+      "displayName": "숲의정령 상의",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setId": "cosmetic-set-22"
+    },
+    {
+      "cosmeticId": "cosmetic-137",
+      "displayName": "숲의정령 무기",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-22"
+    },
+    {
+      "cosmeticId": "cosmetic-138",
+      "displayName": "숲의정령 장갑",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-22"
+    },
+    {
+      "cosmeticId": "cosmetic-139",
+      "displayName": "숲의정령 신발",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-22"
+    },
+    {
+      "cosmeticId": "cosmetic-140",
+      "displayName": "숲의정령 망토",
+      "imageUrl": null,
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-22"
+    },
+    {
+      "cosmeticId": "cosmetic-141",
+      "displayName": "왕실기사 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-23"
+    },
+    {
+      "cosmeticId": "cosmetic-142",
+      "displayName": "왕실기사 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-23"
+    },
+    {
+      "cosmeticId": "cosmetic-143",
+      "displayName": "왕실기사 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-23"
+    },
+    {
+      "cosmeticId": "cosmetic-144",
+      "displayName": "왕실기사 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-23"
+    },
+    {
+      "cosmeticId": "cosmetic-145",
+      "displayName": "왕실기사 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-23"
+    },
+    {
+      "cosmeticId": "cosmetic-146",
+      "displayName": "왕실기사 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-23"
+    },
+    {
+      "cosmeticId": "cosmetic-147",
+      "displayName": "임금 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-24"
+    },
+    {
+      "cosmeticId": "cosmetic-148",
+      "displayName": "임금 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-24"
+    },
+    {
+      "cosmeticId": "cosmetic-149",
+      "displayName": "임금 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-24"
+    },
+    {
+      "cosmeticId": "cosmetic-150",
+      "displayName": "임금 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-24"
+    },
+    {
+      "cosmeticId": "cosmetic-151",
+      "displayName": "임금 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-24"
+    },
+    {
+      "cosmeticId": "cosmetic-152",
+      "displayName": "임금 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-24"
+    },
+    {
+      "cosmeticId": "cosmetic-153",
+      "displayName": "저승사자 모자",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-25"
+    },
+    {
+      "cosmeticId": "cosmetic-154",
+      "displayName": "저승사자 상의",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setId": "cosmetic-set-25"
+    },
+    {
+      "cosmeticId": "cosmetic-155",
+      "displayName": "저승사자 무기",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-25"
+    },
+    {
+      "cosmeticId": "cosmetic-156",
+      "displayName": "저승사자 장갑",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-25"
+    },
+    {
+      "cosmeticId": "cosmetic-157",
+      "displayName": "저승사자 신발",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-25"
+    },
+    {
+      "cosmeticId": "cosmetic-158",
+      "displayName": "저승사자 망토",
+      "imageUrl": null,
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-25"
+    },
+    {
+      "cosmeticId": "cosmetic-159",
+      "displayName": "치어리더 모자",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-26"
+    },
+    {
+      "cosmeticId": "cosmetic-160",
+      "displayName": "치어리더 상의",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": "cosmetic-set-26"
+    },
+    {
+      "cosmeticId": "cosmetic-161",
+      "displayName": "치어리더 무기",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-26"
+    },
+    {
+      "cosmeticId": "cosmetic-162",
+      "displayName": "치어리더 장갑",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-26"
+    },
+    {
+      "cosmeticId": "cosmetic-163",
+      "displayName": "치어리더 신발",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-26"
+    },
+    {
+      "cosmeticId": "cosmetic-164",
+      "displayName": "치어리더 망토",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-26"
+    },
+    {
+      "cosmeticId": "cosmetic-165",
+      "displayName": "나뭇잎 모자",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-27"
+    },
+    {
+      "cosmeticId": "cosmetic-166",
+      "displayName": "나뭇잎 상의",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setId": "cosmetic-set-27"
+    },
+    {
+      "cosmeticId": "cosmetic-167",
+      "displayName": "나뭇잎 무기",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-27"
+    },
+    {
+      "cosmeticId": "cosmetic-168",
+      "displayName": "나뭇잎 장갑",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-27"
+    },
+    {
+      "cosmeticId": "cosmetic-169",
+      "displayName": "나뭇잎 신발",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-27"
+    },
+    {
+      "cosmeticId": "cosmetic-170",
+      "displayName": "나뭇잎 망토",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-27"
+    },
+    {
+      "cosmeticId": "cosmetic-171",
+      "displayName": "고기꼬치 모자",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setId": "cosmetic-set-28"
+    },
+    {
+      "cosmeticId": "cosmetic-172",
+      "displayName": "고기꼬치 상의",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setId": "cosmetic-set-28"
+    },
+    {
+      "cosmeticId": "cosmetic-173",
+      "displayName": "고기꼬치 무기",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setId": "cosmetic-set-28"
+    },
+    {
+      "cosmeticId": "cosmetic-174",
+      "displayName": "고기꼬치 장갑",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setId": "cosmetic-set-28"
+    },
+    {
+      "cosmeticId": "cosmetic-175",
+      "displayName": "고기꼬치 신발",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setId": "cosmetic-set-28"
+    },
+    {
+      "cosmeticId": "cosmetic-176",
+      "displayName": "고기꼬치 망토",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setId": "cosmetic-set-28"
+    },
+    {
+      "cosmeticId": "cosmetic-177",
+      "displayName": "긱시크안경",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-178",
+      "displayName": "네온안경",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-179",
+      "displayName": "눈물",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-180",
+      "displayName": "마스크",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-181",
+      "displayName": "문어입",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-182",
+      "displayName": "반창고",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-183",
+      "displayName": "산타코",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-184",
+      "displayName": "아잉눈",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-185",
+      "displayName": "오리입",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-186",
+      "displayName": "쪽쪽이",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-187",
+      "displayName": "골판지 눈썹",
+      "imageUrl": null,
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setId": null
+    },
+    {
+      "cosmeticId": "cosmetic-188",
+      "displayName": "싸피 후드집업 검정",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": null,
+      "gachaEligible": false
+    },
+    {
+      "cosmeticId": "cosmetic-189",
+      "displayName": "싸피 후드집업 파랑",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": null,
+      "gachaEligible": false
+    },
+    {
+      "cosmeticId": "cosmetic-190",
+      "displayName": "싸피 후드집업 하양",
+      "imageUrl": null,
+      "grade": "RARE",
+      "slot": "TOP",
+      "setId": null,
+      "gachaEligible": false
+    }
+  ],
+  "sets": [
+    {
+      "setId": "cosmetic-set-01",
+      "displayName": "가죽경갑",
+      "grade": "NORMAL",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-001",
+        "TOP": "cosmetic-002",
+        "BOTTOM": "cosmetic-003",
+        "GLOVES": "cosmetic-004",
+        "SHOES": "cosmetic-005",
+        "CAPE": "cosmetic-006"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-02",
+      "displayName": "고물기사",
+      "grade": "NORMAL",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-007",
+        "TOP": "cosmetic-008",
+        "BOTTOM": "cosmetic-009",
+        "GLOVES": "cosmetic-010",
+        "SHOES": "cosmetic-011",
+        "CAPE": "cosmetic-012"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-03",
+      "displayName": "죽창무사",
+      "grade": "NORMAL",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-013",
+        "TOP": "cosmetic-014",
+        "BOTTOM": "cosmetic-015",
+        "GLOVES": "cosmetic-016",
+        "SHOES": "cosmetic-017",
+        "CAPE": "cosmetic-018"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-04",
+      "displayName": "악마",
+      "grade": "RARE",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-024",
+        "TOP": "cosmetic-025",
+        "BOTTOM": "cosmetic-026",
+        "GLOVES": "cosmetic-027",
+        "SHOES": "cosmetic-028",
+        "CAPE": "cosmetic-029"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-05",
+      "displayName": "천사",
+      "grade": "RARE",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-030",
+        "TOP": "cosmetic-031",
+        "BOTTOM": "cosmetic-032",
+        "GLOVES": "cosmetic-033",
+        "SHOES": "cosmetic-034",
+        "CAPE": "cosmetic-035"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-06",
+      "displayName": "거북이 수호자",
+      "grade": "RARE",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-036",
+        "TOP": "cosmetic-037",
+        "BOTTOM": "cosmetic-038",
+        "GLOVES": "cosmetic-039",
+        "SHOES": "cosmetic-040",
+        "CAPE": "cosmetic-041"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-07",
+      "displayName": "무지개떡",
+      "grade": "RARE",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-042",
+        "TOP": "cosmetic-043",
+        "BOTTOM": "cosmetic-044",
+        "GLOVES": "cosmetic-045",
+        "SHOES": "cosmetic-046",
+        "CAPE": "cosmetic-047"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-08",
+      "displayName": "청운",
+      "grade": "RARE",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-048",
+        "TOP": "cosmetic-049",
+        "BOTTOM": "cosmetic-050",
+        "GLOVES": "cosmetic-051",
+        "SHOES": "cosmetic-052",
+        "CAPE": "cosmetic-053"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-09",
+      "displayName": "요리사",
+      "grade": "EPIC",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-054",
+        "TOP": "cosmetic-055",
+        "BOTTOM": "cosmetic-056",
+        "GLOVES": "cosmetic-057",
+        "SHOES": "cosmetic-058",
+        "CAPE": "cosmetic-059"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-10",
+      "displayName": "약과",
+      "grade": "EPIC",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-060",
+        "TOP": "cosmetic-061",
+        "BOTTOM": "cosmetic-062",
+        "GLOVES": "cosmetic-063",
+        "SHOES": "cosmetic-064",
+        "CAPE": "cosmetic-065"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-11",
+      "displayName": "클라이밍",
+      "grade": "EPIC",
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-066",
+        "TOP": "cosmetic-067",
+        "BOTTOM": "cosmetic-068",
+        "GLOVES": "cosmetic-069",
+        "SHOES": "cosmetic-070",
+        "CAPE": "cosmetic-071"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-12",
+      "displayName": "스시야",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-075",
+        "TOP": "cosmetic-076",
+        "BOTTOM": "cosmetic-077",
+        "GLOVES": "cosmetic-078",
+        "SHOES": "cosmetic-079",
+        "CAPE": "cosmetic-080"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-13",
+      "displayName": "마법사",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-081",
+        "TOP": "cosmetic-082",
+        "BOTTOM": "cosmetic-083",
+        "GLOVES": "cosmetic-084",
+        "SHOES": "cosmetic-085",
+        "CAPE": "cosmetic-086"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-14",
+      "displayName": "목화화공",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-087",
+        "TOP": "cosmetic-088",
+        "BOTTOM": "cosmetic-089",
+        "GLOVES": "cosmetic-090",
+        "SHOES": "cosmetic-091",
+        "CAPE": "cosmetic-092"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-15",
+      "displayName": "달토끼",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": "cosmetic-banner-01",
+      "boxItemId": "cosmetic-selector-box-01",
+      "members": {
+        "HEAD": "cosmetic-093",
+        "TOP": "cosmetic-094",
+        "BOTTOM": "cosmetic-095",
+        "GLOVES": "cosmetic-096",
+        "SHOES": "cosmetic-097",
+        "CAPE": "cosmetic-098"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-16",
+      "displayName": "골판지크레용",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-099",
+        "TOP": "cosmetic-100",
+        "BOTTOM": "cosmetic-101",
+        "GLOVES": "cosmetic-102",
+        "SHOES": "cosmetic-103",
+        "CAPE": "cosmetic-104"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-17",
+      "displayName": "구미호",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-105",
+        "TOP": "cosmetic-106",
+        "BOTTOM": "cosmetic-107",
+        "GLOVES": "cosmetic-108",
+        "SHOES": "cosmetic-109",
+        "CAPE": "cosmetic-110"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-18",
+      "displayName": "도깨비",
+      "grade": "EPIC",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-111",
+        "TOP": "cosmetic-112",
+        "BOTTOM": "cosmetic-113",
+        "GLOVES": "cosmetic-114",
+        "SHOES": "cosmetic-115",
+        "CAPE": "cosmetic-116"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-19",
+      "displayName": "마법소녀",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-117",
+        "TOP": "cosmetic-118",
+        "BOTTOM": "cosmetic-119",
+        "GLOVES": "cosmetic-120",
+        "SHOES": "cosmetic-121",
+        "CAPE": "cosmetic-122"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-20",
+      "displayName": "뱀물수호자",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-123",
+        "TOP": "cosmetic-124",
+        "BOTTOM": "cosmetic-125",
+        "GLOVES": "cosmetic-126",
+        "SHOES": "cosmetic-127",
+        "CAPE": "cosmetic-128"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-21",
+      "displayName": "번개월계관",
+      "grade": "EPIC",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-129",
+        "TOP": "cosmetic-130",
+        "BOTTOM": "cosmetic-131",
+        "GLOVES": "cosmetic-132",
+        "SHOES": "cosmetic-133",
+        "CAPE": "cosmetic-134"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-22",
+      "displayName": "숲의정령",
+      "grade": "LEGENDARY",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-135",
+        "TOP": "cosmetic-136",
+        "BOTTOM": "cosmetic-137",
+        "GLOVES": "cosmetic-138",
+        "SHOES": "cosmetic-139",
+        "CAPE": "cosmetic-140"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 220,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 440,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 660,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 880,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 1100,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-23",
+      "displayName": "왕실기사",
+      "grade": "EPIC",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-141",
+        "TOP": "cosmetic-142",
+        "BOTTOM": "cosmetic-143",
+        "GLOVES": "cosmetic-144",
+        "SHOES": "cosmetic-145",
+        "CAPE": "cosmetic-146"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-24",
+      "displayName": "임금",
+      "grade": "EPIC",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-147",
+        "TOP": "cosmetic-148",
+        "BOTTOM": "cosmetic-149",
+        "GLOVES": "cosmetic-150",
+        "SHOES": "cosmetic-151",
+        "CAPE": "cosmetic-152"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-25",
+      "displayName": "저승사자",
+      "grade": "EPIC",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-153",
+        "TOP": "cosmetic-154",
+        "BOTTOM": "cosmetic-155",
+        "GLOVES": "cosmetic-156",
+        "SHOES": "cosmetic-157",
+        "CAPE": "cosmetic-158"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 640,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 800,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-26",
+      "displayName": "치어리더",
+      "grade": "RARE",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-159",
+        "TOP": "cosmetic-160",
+        "BOTTOM": "cosmetic-161",
+        "GLOVES": "cosmetic-162",
+        "SHOES": "cosmetic-163",
+        "CAPE": "cosmetic-164"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 120,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 360,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 480,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 600,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-27",
+      "displayName": "나뭇잎",
+      "grade": "NORMAL",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-165",
+        "TOP": "cosmetic-166",
+        "BOTTOM": "cosmetic-167",
+        "GLOVES": "cosmetic-168",
+        "SHOES": "cosmetic-169",
+        "CAPE": "cosmetic-170"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "cosmetic-set-28",
+      "displayName": "고기꼬치",
+      "grade": "NORMAL",
+      "colors": null,
+      "bannerId": null,
+      "boxItemId": null,
+      "members": {
+        "HEAD": "cosmetic-171",
+        "TOP": "cosmetic-172",
+        "BOTTOM": "cosmetic-173",
+        "GLOVES": "cosmetic-174",
+        "SHOES": "cosmetic-175",
+        "CAPE": "cosmetic-176"
+      },
+      "effects": [
+        {
+          "star": 1,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 80,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 2,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 160,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 3,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 240,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 4,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 320,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        },
+        {
+          "star": 5,
+          "effects": [
+            {
+              "statId": "attackPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "maxHpPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            },
+            {
+              "statId": "defensePenetrationPercent",
+              "value": 400,
+              "unit": "BASIS_POINTS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hanjjak",
+  "private": true,
+  "packageManager": "pnpm@10.33.2",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "contracts:build": "pnpm --filter @hanjjak/contracts build",
+    "content:validate": "node tools/cosmetics/validate-cosmetic-identities.cjs && pnpm --filter @hanjjak/content-validator validate",
+    "cosmetics:add": "node tools/cosmetics/add-cosmetic.cjs",
+    "cosmetics:check": "node --test tools/cosmetics/*.test.cjs && node tools/cosmetics/validate-cosmetic-identities.cjs",
+    "market:fixture": "pnpm --filter @hanjjak/fixtures market"
+  },
+  "version": "0.0.23"
+}

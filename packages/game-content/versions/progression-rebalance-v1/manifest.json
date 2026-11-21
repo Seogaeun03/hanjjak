@@ -1,0 +1,25 @@
+{
+  "contentVersion": "progression-rebalance-v1",
+  "schemaVersion": 1,
+  "authority": "applied",
+  "files": [
+    "chapters/chapters.json",
+    "stages/stages.json",
+    "drops/material-drops.json",
+    "progression/progression.json",
+    "equipment/equipment.json",
+    "skills/skills.json",
+    "gem-dungeons/gem-dungeons.json",
+    "cosmetics/cosmetics.json"
+  ],
+  "checksums": {
+    "chapters/chapters.json": "c44889d8e5f7f951a323c275af474f4435a7d8a64162c7f05c00fa63ce235ea2",
+    "stages/stages.json": "8a8e08590105c42cf6f07f9e772c85eae2a9e7b36db00cec0d8e95f394f291ca",
+    "drops/material-drops.json": "57d73309e69c034f5093ccca607128afc31a3b08bc2e1a45cff31c997b5d3646",
+    "progression/progression.json": "480bb3769d97be1d5bb3c7f90ecf7ac7d27b9f8a755ae8fe4d8d9a04a803be65",
+    "equipment/equipment.json": "00fbe15bc0d9f8dfe9ebb5a07e097ac7b0ca66532cb2c3f2611fe080676a036f",
+    "skills/skills.json": "bddf7100496dfcfca7e0e768149721eacded25e86f4300a536d53bf1588adf7f",
+    "gem-dungeons/gem-dungeons.json": "54bdca417884d3596e70d8b9bb1d93fcc31f5b77cd7bd3bccd6471192204494a",
+    "cosmetics/cosmetics.json": "cc9c259dc01b65b0cc7f813c0bf122d4f682e9a8549fb97eaa6806631510b782"
+  }
+}

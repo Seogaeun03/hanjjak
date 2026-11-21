@@ -1,0 +1,33 @@
+/* 스킬·보석·레이드가 함께 쓰는 종이 카드 언어. 세 화면 모두 눌러야 받아 오는
+   청크라, 셋 중 하나만 열어도 이 파일 하나만 따라온다. */
+.skills-heading, .gems-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; padding: 26px 0 22px; border-bottom: 1px solid #d8caba; }
+.gems-title-copy { display: flex; align-items: center; gap: 22px; min-width: 0; padding-left: 4px; }
+.gems-title-copy > .gem-glyph { flex: 0 0 auto; width: 64px; height: 64px; }
+.gems-title-copy > div { min-width: 0; }
+.skills-heading h2, .gems-heading h2 { margin-bottom: 7px; font-size: clamp(28px, 4vw, 44px); letter-spacing: -.05em; }
+.skills-heading p:not(.eyebrow), .gems-heading p:not(.eyebrow) { margin: 0; color: #746557; }
+.skill-rice, .gem-ticket { min-width: 150px; padding: 16px 18px; color: #fff8ef; background: #4d392d; text-align: right; }
+.skill-rice strong, .gem-ticket strong { display: block; font-size: 29px; letter-spacing: -.04em; }
+.skill-rice small, .gem-ticket small { color: #d9ccbf; }
+.domain-message { display: grid; place-items: center; gap: 8px; min-height: 180px; padding: 22px; color: #766658; text-align: center; border: 1px solid #c9b6a2; background: #fffaf4; }
+.domain-message.error { color: #80230f; border-color: #c07b69; }
+.domain-message button { border: 0; border-radius: 10px; padding: 10px 14px; background: #a4472d; color: #fff; font-weight: 800; }
+.domain-result { margin: 18px 0 0; padding: 12px 14px; color: #406021; background: #e7efd9; border-left: 4px solid #74983e; }
+.domain-panel { margin-top: 18px; padding: 20px; border: 1px solid #c9b6a2; background: #fffaf4; }
+.domain-panel h3 { margin-bottom: 12px; }
+.skill-grid, .gem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; padding-top: 18px; }
+.skill-card, .gem-card { padding: 16px; border: 1px solid #d8caba; background: #fffdf8; }
+.skill-card.unlocked, .gem-card.selected { border-color: #74983e; background: #f5faec; }
+.skill-card header, .gem-card header { display: grid; gap: 4px; margin-bottom: 12px; }
+.skill-card span, .gem-card span { color: #a4472d; font-size: 11px; font-weight: 900; letter-spacing: .08em; }
+.skill-card h3, .gem-card h3 { margin: 0; font-size: 20px; }
+.skill-card mark, .gem-card mark { width: fit-content; padding: 3px 6px; color: #4b704b; background: #e1ebd7; font-size: 11px; font-weight: 800; }
+.skill-card p, .gem-card small, .domain-panel p { color: #65564b; }
+.skill-card dl { display: grid; gap: 7px; margin: 0 0 14px; }
+.skill-card dl div { display: flex; justify-content: space-between; gap: 10px; padding-bottom: 7px; border-bottom: 1px solid #eadbca; }
+.skill-card dt, .skill-card dd { margin: 0; }
+.skill-card dd { font-weight: 900; }
+.skill-actions, .gem-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.skill-actions button, .gem-card button, .gem-controls button { border: 0; border-radius: 10px; padding: 9px 12px; background: #a4472d; color: #fff; font-weight: 800; }
+.skill-actions button:disabled, .gem-card button:disabled, .gem-controls button:disabled { opacity: .45; }
+.loadout-list { margin: 0; padding-left: 22px; color: #65564b; line-height: 1.7; }

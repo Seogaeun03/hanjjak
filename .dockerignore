@@ -1,0 +1,17 @@
+.git
+.gitignore
+.gradle
+.kotlin
+.idea
+.vscode
+.codex
+.tmp
+.codex-worktrees
+_codex_worktrees
+.w
+docs
+**/node_modules
+**/.pnpm-store
+**/build
+**/dist
+portfolio

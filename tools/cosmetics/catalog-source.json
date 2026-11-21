@@ -1,0 +1,310 @@
+{
+  "sets": [
+    {
+      "slug": "leather-guard",
+      "name": "가죽경갑",
+      "grade": "NORMAL"
+    },
+    {
+      "slug": "scrap-knight",
+      "name": "고물기사",
+      "grade": "NORMAL"
+    },
+    {
+      "slug": "bamboo-spear",
+      "name": "죽창무사",
+      "grade": "NORMAL"
+    },
+    {
+      "slug": "demon",
+      "name": "악마",
+      "grade": "RARE"
+    },
+    {
+      "slug": "angel",
+      "name": "천사",
+      "grade": "RARE"
+    },
+    {
+      "slug": "turtle-guardian",
+      "name": "거북이 수호자",
+      "grade": "RARE"
+    },
+    {
+      "slug": "rainbow-rice-cake",
+      "name": "무지개떡",
+      "grade": "RARE"
+    },
+    {
+      "slug": "cheongun",
+      "name": "청운",
+      "grade": "RARE"
+    },
+    {
+      "slug": "chef",
+      "name": "요리사",
+      "grade": "EPIC"
+    },
+    {
+      "slug": "yakgwa",
+      "name": "약과",
+      "grade": "EPIC"
+    },
+    {
+      "slug": "climbing",
+      "name": "클라이밍",
+      "grade": "EPIC",
+      "colors": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "slug": "sushi",
+      "name": "스시야",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "mage",
+      "name": "마법사",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "cotton-painter",
+      "name": "목화화공",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "moon-rabbit",
+      "name": "달토끼",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "cardboard-crayon",
+      "name": "골판지크레용",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "white-fox-spirit",
+      "name": "구미호",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "dokkaebi",
+      "name": "도깨비",
+      "grade": "EPIC"
+    },
+    {
+      "slug": "magical-girl",
+      "name": "마법소녀",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "snake-water-guardian",
+      "name": "뱀물수호자",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "lightning-laurel",
+      "name": "번개월계관",
+      "grade": "EPIC"
+    },
+    {
+      "slug": "forest-spirit",
+      "name": "숲의정령",
+      "grade": "LEGENDARY"
+    },
+    {
+      "slug": "royal-knight",
+      "name": "왕실기사",
+      "grade": "EPIC"
+    },
+    {
+      "slug": "king",
+      "name": "임금",
+      "grade": "EPIC"
+    },
+    {
+      "slug": "grim-reaper",
+      "name": "저승사자",
+      "grade": "EPIC"
+    },
+    {
+      "slug": "cheerleader",
+      "name": "치어리더",
+      "grade": "RARE"
+    },
+    {
+      "slug": "leaf",
+      "name": "나뭇잎",
+      "grade": "NORMAL"
+    },
+    {
+      "slug": "meat-skewer",
+      "name": "고기꼬치",
+      "grade": "NORMAL"
+    }
+  ],
+  "singles": [
+    {
+      "slug": "afro",
+      "part": "hat",
+      "name": "아프로 가발",
+      "grade": "NORMAL",
+      "slot": "HEAD"
+    },
+    {
+      "slug": "afro",
+      "part": "glasses",
+      "name": "아프로 안경",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "afro",
+      "part": "shoes",
+      "name": "아프로 신발",
+      "grade": "NORMAL",
+      "slot": "SHOES"
+    },
+    {
+      "slug": "blusher",
+      "part": "face",
+      "name": "볼터치",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "odd-eye",
+      "part": "face",
+      "name": "오드아이",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "music-box",
+      "part": "back",
+      "name": "오르골 상자",
+      "grade": "EPIC",
+      "slot": "CAPE"
+    },
+    {
+      "slug": "music-box",
+      "part": "hat",
+      "name": "오르골 태엽",
+      "grade": "EPIC",
+      "slot": "HEAD"
+    },
+    {
+      "slug": "music-box",
+      "part": "weapon",
+      "name": "오르골 지팡이",
+      "grade": "EPIC",
+      "slot": "BOTTOM"
+    },
+    {
+      "slug": "geek-chic-glasses",
+      "part": "face",
+      "name": "긱시크안경",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "neon-glasses",
+      "part": "face",
+      "name": "네온안경",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "tears",
+      "part": "face",
+      "name": "눈물",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "face-mask",
+      "part": "face",
+      "name": "마스크",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "octopus-mouth",
+      "part": "face",
+      "name": "문어입",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "bandage",
+      "part": "face",
+      "name": "반창고",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "santa-nose",
+      "part": "face",
+      "name": "산타코",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "aing-eyes",
+      "part": "face",
+      "name": "아잉눈",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "duck-mouth",
+      "part": "face",
+      "name": "오리입",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "pacifier",
+      "part": "face",
+      "name": "쪽쪽이",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "cardboard-brows",
+      "part": "face",
+      "name": "골판지 눈썹",
+      "grade": "NORMAL",
+      "slot": "FACE"
+    },
+    {
+      "slug": "ssafy-hood-black",
+      "part": "body",
+      "name": "싸피 후드집업 검정",
+      "grade": "RARE",
+      "slot": "TOP",
+      "gachaEligible": false
+    },
+    {
+      "slug": "ssafy-hood-blue",
+      "part": "body",
+      "name": "싸피 후드집업 파랑",
+      "grade": "RARE",
+      "slot": "TOP",
+      "gachaEligible": false
+    },
+    {
+      "slug": "ssafy-hood-white",
+      "part": "body",
+      "name": "싸피 후드집업 하양",
+      "grade": "RARE",
+      "slot": "TOP",
+      "gachaEligible": false
+    }
+  ],
+  "legendaryBanners": {
+    "moon-rabbit": "cosmetic-banner-01"
+  }
+}

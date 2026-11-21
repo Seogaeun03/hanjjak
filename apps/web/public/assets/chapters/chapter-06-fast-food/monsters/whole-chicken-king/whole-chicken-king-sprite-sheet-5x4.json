@@ -1,0 +1,28 @@
+{
+  "slug": "whole-chicken-king",
+  "name": "통닭 대왕",
+  "status": "game-ready",
+  "image": "whole-chicken-king-sprite-sheet-5x4.png",
+  "frameSize": [
+    552,
+    552
+  ],
+  "sheetSize": [
+    2208,
+    2760
+  ],
+  "grid": [
+    4,
+    5
+  ],
+  "order": [
+    "idle",
+    "move",
+    "attack",
+    "hit",
+    "defeat"
+  ],
+  "framesPerMotion": 4,
+  "source": "art/monster/06-패스트푸드",
+  "notes": []
+}

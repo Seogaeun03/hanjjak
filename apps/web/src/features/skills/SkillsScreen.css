@@ -1,0 +1,183 @@
+/* 스킬 화면 전용 스타일. 전투 HUD 도 쓰는 스킬 그림은 SkillArtwork.css 가 맡는다. */
+/* Skill growth window — shares the character/equipment parchment language. */
+.skills-window { width: var(--paper-width); height: var(--paper-min-height); max-width: none; max-height: none; padding: 0; border: 0; overflow: hidden; color: transparent; background: transparent; }
+.skills-window::backdrop { background: rgba(47,28,15,.28); backdrop-filter: blur(3px) saturate(.92); }
+
+.skills-window .skills-screen { height: 100%; min-height: 0; padding: 0; overflow: hidden; background: transparent; }
+.skills-window .skills-paper { width: 100%; min-height: 0; }
+.skills-screen { min-height: min(850px, calc(100vh - 110px)); padding: clamp(12px,2.5vw,34px); border: 0; color: #382216; background-color: #f6dda8; background-image: linear-gradient(rgba(255,245,218,.2),rgba(255,238,198,.14)),url("../character/assets-cozy-pixel/character-backdrop-coarse.png"); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: var(--hanjjak-font-ui); }
+.skills-paper { position: relative; z-index: 0; isolation: isolate; display: flex; flex-direction: column; width: var(--paper-width); height: var(--paper-min-height); min-height: 0; margin: 0 auto; padding: var(--paper-pad-top) var(--paper-pad-inline) var(--paper-pad-bottom); overflow: hidden; background: var(--paper-sheet-pinking) center / 100% 100% no-repeat; filter: drop-shadow(0 15px 18px rgba(58,31,15,.22)); }
+.skills-heading { position: relative; display: grid; flex: 0 0 auto; grid-template-columns: minmax(220px,1fr) auto; align-items: center; gap: 24px; min-height: 0; padding: var(--paper-heading-pad); border-bottom: var(--paper-rule); }
+.skills-title { display: flex; align-items: center; gap: var(--paper-title-gap); }
+.skills-title > img { width: var(--paper-title-icon); height: var(--paper-title-icon); object-fit: contain; image-rendering: pixelated; }
+.skills-title h2 { margin: 0; color: var(--paper-ink); font-size: var(--paper-title-size); font-weight: 950; line-height: .95; letter-spacing: -.04em; text-shadow: 0 2px #fff3d8; }
+.skills-holdings { display: flex; align-items: center; gap: 14px; color: #40291b; }
+.skills-holdings > strong { margin-right: 3px; color: var(--paper-sub-ink); font-size: var(--paper-label-size); font-weight: 800; white-space: nowrap; }
+.skills-holdings > span { display: inline-flex; align-items: center; gap: 6px; min-width: 96px; font-size: var(--paper-value-size); white-space: nowrap; }
+.skills-holdings img { width: 34px; height: 34px; object-fit: contain; image-rendering: pixelated; }
+.skill-loadout li:focus-visible,.skill-card-select-hitbox:focus-visible,.skill-enhance-button:focus-visible,.skill-promote-button:focus-visible { outline: 4px solid rgba(232,75,63,.38); outline-offset: 2px; }
+.skills-message { display: grid; place-items: center; gap: 8px; min-height: 160px; padding: 22px; color: #766658; text-align: center; }
+.skills-message.error { color: #80230f; }
+.skills-message button { border: 0; border-radius: 8px; padding: 10px 14px; color: #fff; background: #a4472d; font-weight: 900; }
+.skills-window .skills-message { display: flex; flex: 0 0 auto; justify-content: center; gap: 12px; min-height: 0; margin: 0 6px; padding: 7px 12px; }
+.skills-window .skills-message p { margin: 0; }
+.skills-window .skills-message button { padding: 7px 11px; }
+/* 자동 사용 줄이 카드 위를 가로로 지나가면 위 공간을 통째로 먹는다. 오른쪽 세로 칸으로
+   옮겨 카드가 쓸 높이를 돌려주었다. */
+.skills-body { display: grid; flex: 1 1 auto; grid-template-columns: minmax(0,1fr) clamp(124px,12.6vw,158px); align-items: stretch; gap: 14px; min-height: 0; padding-top: 12px; }
+/* 카드는 제 키만 갖고, 강화 칸이 그 바로 아래로 올라온다. 남는 높이는 맨 아래에 둔다. */
+.skill-growth-column { display: grid; grid-template-rows: auto auto; align-content: start; gap: 12px; min-width: 0; min-height: 0; }
+/* 칸을 4개만 쓰므로 상자도 거기서 끝난다. 늘려 두면 슬롯 아래로 빈 칸이 남는다. */
+.skill-loadout { display: grid; align-self: start; align-content: start; gap: 10px; margin: 0; padding: 10px 11px 12px; border: 1px solid rgba(196,123,86,.34); border-radius: 14px; background: rgba(255,230,204,.55); box-shadow: inset 0 1px rgba(255,255,255,.58); }
+.skill-loadout h3 { margin: 0; color: #a74739; font-size: clamp(14px,1.3vw,18px); font-weight: 950; text-align: center; }
+.skill-loadout ol { display: grid; grid-template-columns: minmax(0,1fr); gap: 8px; margin: 0; padding: 0; list-style: none; }
+.skill-loadout li { position: relative; display: grid; place-items: center; min-width: 0; height: clamp(86px,11vh,106px); padding: 10px; border: 2px solid rgba(124,91,63,.24); border-radius: 10px; color: #685443; background: rgba(255,250,237,.7); cursor: pointer; transition: border-color .16s ease,background-color .16s ease,transform .16s ease; }
+.skill-loadout li.filled { color: #3f2c20; border-color: rgba(101,139,70,.44); background: rgba(244,250,226,.82); }
+.skill-loadout li:hover,.skill-loadout li.selecting { border-color: rgba(201,91,66,.72); background: rgba(255,239,215,.94); transform: translateY(-1px); }
+.skill-loadout li[aria-disabled="true"] { cursor: default; opacity: .55; transform: none; }
+.skill-loadout li > b { position: absolute; top: -7px; left: -7px; z-index: 1; display: grid; place-items: center; width: 26px; height: 26px; border: 2px solid #fff6e4; border-radius: 50%; color: #fff9e9; background: #9a5e48; font-size: 13px; }
+
+.skill-loadout li > i { display: grid; place-items: center; width: 42px; height: 42px; color: #b79b83; font-size: 32px; font-style: normal; font-weight: 900; }
+/* 카드를 조금 키워 강화 칸 아래 남던 빈 자리를 줄인다. 바닥까지 꽉 채우지는 않는다. */
+.skill-growth-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); grid-template-rows: repeat(2,auto); gap: 12px; min-height: 0; padding: 0 4px; }
+.skill-growth-card { --skill-card-art-size: clamp(56px,5.2vw,74px); position: relative; display: grid; align-content: stretch; grid-template-columns: var(--skill-card-art-size) minmax(0,1fr); grid-template-rows: minmax(0,1fr) auto; column-gap: 14px; row-gap: 7px; min-width: 0; min-height: clamp(144px,19.4vh,176px); padding: 12px 14px 8px; overflow: hidden; border: 2px solid rgba(111,79,55,.24); border-radius: 18px; color: #382216; background: rgba(255,252,239,.78); box-shadow: inset 0 1px rgba(255,255,255,.72),0 3px 0 rgba(114,77,48,.09); }
+/* 고른 한 장. 아래 강화 칸이 이 스킬을 가리킨다. */
+.skill-growth-card.picked { border-color: #e0714f; background: #fffdf3; box-shadow: inset 0 0 0 3px rgba(233,141,104,.42),0 5px 0 rgba(176,94,60,.2); transform: translateY(-2px); }
+.skill-growth-card:not(.picked):hover { border-color: rgba(201,120,83,.62); }
+.skill-card-pick { position: absolute; z-index: 2; inset: 0; width: 100%; height: 100%; padding: 0; border: 0; border-radius: 16px; background: transparent; cursor: pointer; }
+.skill-card-pick:focus-visible { outline: 4px solid rgba(232,75,63,.38); outline-offset: -4px; }
+/* 액티브·패시브는 카드 오른쪽 위 모서리에 붙는 태그로 뺀다. 색으로 먼저 갈린다. */
+.skill-kind { position: absolute; z-index: 3; top: 0; right: 0; padding: 4px 10px 5px; border-radius: 0 16px 0 13px; font-size: clamp(10px,.87vw,13px); font-weight: 950; letter-spacing: -.02em; }
+/* 지금 올릴 수 있는지. 초록은 바로 가능, 빨강은 재료가 모자람, 회색은 더 올릴 곳 없음. */
+.cozy-chevron { display: inline-block; width: .48em; height: .48em; border-top: .14em solid currentColor; border-right: .14em solid currentColor; }
+.cozy-chevron.is-next { transform: translateX(-.12em) rotate(45deg); }
+.cozy-chevron.is-previous { transform: translateX(.12em) rotate(-135deg); }
+.cozy-chevron.is-down { transform: translateY(-.12em) rotate(135deg); }
+
+.skill-kind.is-active { color: #6d3517; background: #f7b083; }
+.skill-kind.is-passive { color: #1f4f72; background: #a9d0eb; }
+.skill-growth-card.unlocked { border-color: rgba(201,120,83,.38); }
+/* 지금 올릴 수 있는 카드는 테두리 색으로 알린다. 해금 여부보다 뒤에 와야 색이 산다.
+   고른 카드는 제 주황 고리와 들림으로 이미 구분되므로 테두리는 이쪽에 내준다. */
+.skill-growth-card.is-ready-enhance { border-color: #4f9a5f; }
+.skill-growth-card.is-ready-promote { border-color: #4e9ec7; }
+.skill-growth-card.is-ready-enhance:not(.picked) { box-shadow: inset 0 0 0 2px rgba(79,154,95,.32),0 3px 0 rgba(114,77,48,.09); }
+.skill-growth-card.is-ready-promote:not(.picked) { box-shadow: inset 0 0 0 2px rgba(78,158,199,.32),0 3px 0 rgba(114,77,48,.09); }
+.skill-growth-card.is-ready-enhance:not(.picked):hover { border-color: #3f8550; }
+.skill-growth-card.is-ready-promote:not(.picked):hover { border-color: #3d88ae; }
+/*
+ * 테두리 색만으로는 여섯 장 사이에서 눈에 걸리지 않았다. 올릴 수 있는 카드는 숨 쉬듯
+ * 조금씩 커졌다 줄어들며 눈길을 끈다. 크게 움직이면 읽는 것을 방해하므로 3% 남짓이다.
+ * 고른 카드와 장착할 스킬을 고르는 중인 화면은 제 움직임이 따로 있어 뺀다.
+ * 움직임을 줄여 달라는 설정은 위의 공용 규칙이 이 애니메이션까지 함께 끈다.
+ */
+@keyframes skill-ready-breathe { from, to { transform: scale(1); } 50% { transform: scale(1.03); } }
+.skill-growth-grid:not(.selecting) > .skill-growth-card.is-ready-enhance:not(.picked),
+.skill-growth-grid:not(.selecting) > .skill-growth-card.is-ready-promote:not(.picked) { animation: skill-ready-breathe 1.8s ease-in-out infinite; }
+.skill-growth-card.locked { filter: saturate(.45); opacity: .72; }
+.skill-card-art { position: relative; grid-column: 1; grid-row: 1; align-self: center; }
+
+.skill-card-art mark { position: absolute; right: -4px; bottom: -4px; padding: 3px 6px; border-radius: 8px; color: #fffbea; background: #66924b; font-size: 10px; font-weight: 950; }
+.skill-card-copy { min-width: 0; }
+.skill-card-copy { display: grid; align-content: center; gap: 7px; }
+.skill-card-copy h3 { margin: 0; padding-right: 38px; color: #352014; font-size: clamp(16px,1.48vw,21px); font-weight: 950; line-height: 1.14; letter-spacing: -.035em; }
+.skill-card-meta { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.skill-grade { display: inline-flex; align-items: center; min-height: 25px; padding: 3px 11px 4px; border: 1px solid rgba(77,57,43,.18); border-radius: 999px; color: #615a53; background: #e9e5df; font-size: clamp(11px,.98vw,14px); font-weight: 950; white-space: nowrap; box-shadow: inset 0 1px rgba(255,255,255,.65); }
+.skill-grade-rare { color: #2f6f9f; border-color: #a7cee9; background: #dcebf6; }
+.skill-grade-epic { color: #75439a; border-color: #cdb3df; background: #ecdef4; }
+.skill-grade-legendary { color: #976013; border-color: #e9c769; background: #fff0b8; }
+.skill-grade-locked { color: #87786c; border-color: #d7cabc; background: #efe9e1; }
+.skill-card-meta > strong { color: #d3493e; font-size: clamp(15px,1.28vw,19px); white-space: nowrap; }
+.skill-effect { grid-column: 1 / -1; align-self: end; margin: 0; padding: 5px 10px; border-radius: 10px; color: #695443; background: rgba(246,229,199,.55); font-size: clamp(11px,.99vw,14px); font-weight: 800; line-height: 1.34; }
+.skill-card-state { grid-column: 1 / -1; margin: -1px 0 5px; color: #c4493e; font-size: 11px; font-weight: 900; }
+.skill-enhance-panel { display: grid; grid-template-rows: auto auto; gap: 8px; min-height: 112px; padding: 10px clamp(12px,1.4vw,22px); border: 2px dashed rgba(152,112,76,.46); border-radius: 18px; background: rgba(255,252,240,.6); }
+.skill-enhance-costs,.skill-enhance-actions { display: flex; align-items: center; min-width: 0; }
+.skill-enhance-costs { gap: clamp(10px,1.5vw,24px); }
+.skill-enhance-actions { justify-content: flex-end; gap: clamp(14px,1.5vw,24px); }
+.skill-enhance-label { flex: 0 0 auto; color: #6b4a32; font-size: clamp(14px,1.2vw,18px); font-weight: 950; }
+.skill-enhance-panel .skill-success-rate { margin-left: auto; }
+.skill-enhance-state { margin: 0; color: #c4493e; font-size: clamp(12px,1vw,15px); font-weight: 900; }
+.skill-enhance-actions > button { min-width: clamp(130px,13vw,188px); min-height: 52px; border: 0; border-radius: 14px; font-size: clamp(17px,1.5vw,23px); font-weight: 950; }
+.skill-resource-cost { display: flex; align-items: center; gap: 9px; min-width: 0; flex: 1 1 auto; }
+.skill-resource { display: inline-flex; align-items: center; gap: 3px; color: #3f2c20; white-space: nowrap; }
+.skill-resource img { width: 34px; height: 34px; object-fit: contain; image-rendering: pixelated; }
+.skill-resource strong { font-size: clamp(16px,1.35vw,21px); }
+.skill-resource.short,.skill-book-cost.short { color: #d9473b; }
+.skill-resource.muted { opacity: .38; }
+.skill-book-cost { display: flex; align-items: center; min-width: 0; gap: 4px; }
+.skill-book-cost > img { flex: 0 0 32px; width: 32px; height: 32px; object-fit: contain; image-rendering: pixelated; }
+.skill-book-cost > div { display: grid; grid-template-columns: repeat(4,minmax(max-content,1fr)); min-width: 0; gap: 3px; }
+.skill-book-cost span { display: inline-grid; grid-template-columns: auto auto; align-items: center; gap: 1px 6px; border: 1px solid rgba(115,82,56,.2); border-radius: 7px; padding: 3px 8px; color: #554033; background: rgba(255,249,231,.72); font-size: 9px; white-space: nowrap; }
+.skill-book-cost span b { color: #8b6349; font-size: clamp(11px,.95vw,13px); }
+.skill-book-cost span strong { font-size: clamp(13px,1.15vw,17px); }
+.skill-book-cost span em { grid-column: 1 / -1; color: #d9473b; font-size: clamp(10px,.9vw,12px); font-style: normal; font-weight: 950; text-align: center; }
+.skill-book-cost span.short { border-color: rgba(217,71,59,.5); color: #c8372d; background: #fff0e8; }
+.skill-book-cost { min-height: 36px; }
+.skill-growth-grid.selecting .skill-growth-card { filter: brightness(.55) saturate(.65); transition: filter .16s ease,transform .16s ease,border-color .16s ease; }
+.skill-growth-grid.selecting .skill-growth-card.selectable { filter: brightness(.72) saturate(.84); }
+.skill-growth-grid.selecting .skill-growth-card.selectable:hover,.skill-growth-grid.selecting .skill-growth-card.selectable:focus-within { z-index: 3; border-color: rgba(214,91,65,.86); filter: brightness(1.05) saturate(1.08); transform: translateY(-2px); }
+.skill-card-select-hitbox { position: absolute; z-index: 5; inset: 0; width: 100%; height: 100%; padding: 0; border: 0; border-radius: 14px; background: transparent; cursor: pointer; }
+.skill-selection-blocked { position: absolute; z-index: 4; inset: 0; display: grid; place-content: center; justify-items: center; gap: 8px; border-radius: 14px; color: #fff8e8; background: rgba(48,35,28,.46); font-size: 14px; font-weight: 950; text-shadow: 0 2px 3px rgba(35,21,14,.8); }
+.skill-selection-blocked i { position: relative; display: block; width: 42px; height: 42px; border: 5px solid #ef7969; border-radius: 50%; box-shadow: 0 2px 0 rgba(74,31,24,.72); }
+.skill-selection-blocked i::after { position: absolute; top: 14px; left: -4px; width: 40px; height: 5px; content: ""; border-radius: 4px; background: #ef7969; transform: rotate(-45deg); }
+.skill-success-rate { display: grid; justify-items: center; margin: 0; color: #6c5948; line-height: 1.1; white-space: nowrap; }
+.skill-success-rate b { color: #4f753b; font-size: clamp(20px,1.8vw,27px); }
+.skill-success-rate small { margin-top: 2px; font-size: 11px; font-weight: 950; }
+.skill-enhance-button,.skill-promote-button { position: relative; z-index: 0; isolation: isolate; width: 104px; height: 43px; border: 0; color: #fff9ec; background: transparent; font: inherit; font-size: 16px; font-weight: 950; text-shadow: 0 2px rgba(94,39,28,.4); }
+.skill-enhance-button::before,.skill-promote-button::before { position: absolute; z-index: -1; inset: 0; content: ""; background-position: center; background-size: contain; background-repeat: no-repeat; image-rendering: pixelated; }
+.skill-enhance-button::before { background-image: url("../equipment/assets-cozy-pixel/equipment-action-button-red-v2.png"); }
+.skill-promote-button::before { background-image: url("../equipment/assets-cozy-pixel/equipment-action-button-blue-v2.png"); }
+/* 예전에는 회색조 .35에 투명도 .46뿐이라 눌리는 단추와 구분이 잘 되지 않았다. 색을 완전히
+   빼고 글자까지 눌러, 누를 수 있는 것과 없는 것이 한눈에 갈리게 한다. */
+.skill-enhance-button:disabled,.skill-promote-button:disabled,
+.equipment-enhance-button:disabled,.equipment-promote-button:disabled { color: #8c7a68; opacity: 1; text-shadow: none; cursor: not-allowed; }
+.skill-enhance-button:disabled::before,.skill-promote-button:disabled::before,
+.equipment-enhance-button:disabled::before,.equipment-promote-button:disabled::before { filter: grayscale(1) brightness(1.24) contrast(.72); opacity: .55; }
+
+@media (max-width: 1060px) {
+  .skills-heading { grid-template-columns: 1fr auto; }
+  .skills-holdings { grid-column: 1 / -1; grid-row: 2; justify-content: flex-end; transform: none; }
+  .skill-loadout { grid-template-columns: 105px minmax(0,1fr); }
+  .skill-loadout li { grid-template-columns: 24px 40px minmax(0,1fr); padding-inline: 5px; }
+  .skill-artwork.compact { width: 40px; height: 40px; }
+  .skill-enhance-costs { align-items: flex-start; }
+  .skill-resource-cost { align-items: flex-start; flex-wrap: wrap; }
+  .skill-book-cost > div { grid-template-columns: repeat(2,minmax(max-content,1fr)); }
+}
+@media (max-width: 720px) {
+  .skills-window { width: calc(100vw - 16px); height: calc(100dvh - 16px); overflow: auto; }
+  .skills-window .skills-screen { height: auto; min-height: 100%; overflow: visible; }
+  .skills-screen { padding: 4px; }
+  .skills-paper { height: auto; min-height: 100%; padding: 46px 24px 36px; overflow: visible; }
+  .skills-paper::before { border-width: 28px; border-image-width: 28px; }
+  .skills-heading { gap: 9px; padding-inline: 0; }
+  .skills-title > img { width: 52px; height: 52px; }
+  .skills-holdings { justify-content: flex-start; gap: 7px; overflow-x: auto; }
+  .skills-holdings > strong { display: none; }
+  .skills-holdings > span { min-width: max-content; }
+  .skill-loadout { grid-template-columns: 1fr; gap: 8px; margin-inline: 0; }
+  .skill-loadout h3 { text-align: left; }
+  .skill-loadout ol { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .skill-growth-grid { grid-template-columns: 1fr; grid-template-rows: none; align-content: start; padding-inline: 0; }
+  .skill-growth-card { --skill-card-art-size: 72px; }
+}
+@media (max-width: 420px) {
+  .skills-paper { padding-inline: 19px; }
+  .skill-loadout ol { grid-template-columns: 1fr; }
+  .skill-card-footer { grid-template-columns: 1fr auto; }
+  .skill-enhance-button,.skill-promote-button { grid-column: 1 / -1; width: 132px; justify-self: end; }
+}
+
+/* 모바일 스킬 창은 세로로 변형되는 바깥 종이 베이스를 사용하지 않는다. */
+@media (max-width: 767px) and (orientation: portrait) {
+  .skills-window { width: 100vw; height: 100dvh; }
+  .skills-paper {
+    border: 0;
+    border-radius: 0;
+    background: #fffaf0;
+    filter: none;
+  }
+  .skills-paper::before { display: none; }
+  .skills-body { grid-template-columns: minmax(0, 1fr); }
+  .skill-loadout { display: none; }
+}

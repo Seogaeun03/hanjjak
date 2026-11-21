@@ -1,0 +1,65 @@
+node_modules/
+.pnpm-store/
+dist/
+build/
+.gradle/
+.gradle-user-home/
+.kotlin/
+.idea/
+.vscode/
+.codex/
+.tmp/
+*.iml
+.env
+.env.*
+!.env.example
+apps/*/build/
+packages/contracts/generated/server/
+packages/client-sdk/src/generated/
+portfolio/
+infra/deploy/smoke.env
+infra/deploy/smoke-secrets/
+infra/deploy/smoke-backups/
+.gstack/
+.worktrees/
+.codex-worktrees/
+_codex_worktrees/
+.w/
+.browse-state/
+tools/local/last-run.log
+
+# Local generated previews and export artifacts.
+outputs/*
+!outputs/README.md
+!outputs/raid-boss-dark-chopsticks/
+!outputs/raid-boss-dark-chopsticks/**
+!outputs/skill-vfx-concepts-v2/
+!outputs/skill-vfx-concepts-v2/**
+
+# tsc -b 가 남기는 증분 빌드 기록. 사람마다 다르고 저장소에 들어갈 것이 아니다.
+*.tsbuildinfo
+
+# 로컬에서 API 를 띄워 둘 때 남는 기록.
+api-local*.log
+
+# Playwright 자리 검사가 남기는 것. 실패했을 때만 생기고 CI 는 artifact 로 따로 올린다.
+apps/web/test-results/
+apps/web/playwright-report/
+apps/web/e2e-results.json
+
+# Public source hygiene
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+__pycache__/
+*.pyc
+node_modules/
+dist/
+Library/
+Temp/
+Logs/
+UserSettings/

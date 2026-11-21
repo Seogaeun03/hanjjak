@@ -1,0 +1,5890 @@
+{
+  "authority": "applied",
+  "contentVersion": "progression-rebalance-v1",
+  "levelRange": {
+    "min": 1,
+    "max": 300
+  },
+  "stages": [
+    {
+      "stageId": "stage.01-01",
+      "normalExperience": 9,
+      "bossExperience": 45,
+      "normalRice": 1,
+      "bossRice": 10,
+      "firstClear": {
+        "rice": 1392,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 178
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 178
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 178
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-02",
+      "normalExperience": 23,
+      "bossExperience": 115,
+      "normalRice": 2,
+      "bossRice": 20,
+      "firstClear": {
+        "rice": 2784,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 356
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 356
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 356
+          },
+          {
+            "itemId": "skillbook:active_heavy:normal",
+            "quantity": 1
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-03",
+      "normalExperience": 32,
+      "bossExperience": 160,
+      "normalRice": 3,
+      "bossRice": 30,
+      "firstClear": {
+        "rice": 4176,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 533
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 533
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 533
+          },
+          {
+            "itemId": "skillbook:active_dot:normal",
+            "quantity": 1
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-04",
+      "normalExperience": 39,
+      "bossExperience": 195,
+      "normalRice": 4,
+      "bossRice": 40,
+      "firstClear": {
+        "rice": 5568,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 711
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 711
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 711
+          },
+          {
+            "itemId": "skillbook:active_haste:normal",
+            "quantity": 1
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-05",
+      "normalExperience": 44,
+      "bossExperience": 220,
+      "normalRice": 5,
+      "bossRice": 50,
+      "firstClear": {
+        "rice": 6960,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 889
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 889
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 889
+          },
+          {
+            "itemId": "skillbook:active_basic_amp:normal",
+            "quantity": 1
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-06",
+      "normalExperience": 48,
+      "bossExperience": 240,
+      "normalRice": 6,
+      "bossRice": 60,
+      "firstClear": {
+        "rice": 8352,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 1067
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 1067
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 1067
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-07",
+      "normalExperience": 51,
+      "bossExperience": 255,
+      "normalRice": 7,
+      "bossRice": 70,
+      "firstClear": {
+        "rice": 9744,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 1244
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 1244
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 1244
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-08",
+      "normalExperience": 54,
+      "bossExperience": 270,
+      "normalRice": 8,
+      "bossRice": 80,
+      "firstClear": {
+        "rice": 11136,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 1422
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 1422
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 1422
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-09",
+      "normalExperience": 56,
+      "bossExperience": 280,
+      "normalRice": 9,
+      "bossRice": 90,
+      "firstClear": {
+        "rice": 12528,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 1600
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 1600
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 1600
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.01-10",
+      "normalExperience": 58,
+      "bossExperience": 290,
+      "normalRice": 10,
+      "bossRice": 100,
+      "firstClear": {
+        "rice": 870,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 74
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 74
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 74
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 2
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 2
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 2
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-01",
+      "normalExperience": 60,
+      "bossExperience": 300,
+      "normalRice": 11,
+      "bossRice": 110,
+      "firstClear": {
+        "rice": 1566,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 148
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 148
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 148
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 16
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 16
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 16
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-02",
+      "normalExperience": 61,
+      "bossExperience": 305,
+      "normalRice": 12,
+      "bossRice": 120,
+      "firstClear": {
+        "rice": 3132,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 296
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 296
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 296
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 32
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 32
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 32
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-03",
+      "normalExperience": 63,
+      "bossExperience": 315,
+      "normalRice": 13,
+      "bossRice": 130,
+      "firstClear": {
+        "rice": 4698,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 444
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 444
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 444
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 48
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 48
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 48
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-04",
+      "normalExperience": 64,
+      "bossExperience": 320,
+      "normalRice": 14,
+      "bossRice": 140,
+      "firstClear": {
+        "rice": 6264,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 592
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 592
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 592
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 64
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-05",
+      "normalExperience": 65,
+      "bossExperience": 325,
+      "normalRice": 15,
+      "bossRice": 150,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 740
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 740
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 740
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 80
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 80
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 80
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-06",
+      "normalExperience": 66,
+      "bossExperience": 330,
+      "normalRice": 16,
+      "bossRice": 160,
+      "firstClear": {
+        "rice": 9396,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 888
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 888
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 888
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 96
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 96
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 96
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-07",
+      "normalExperience": 66,
+      "bossExperience": 330,
+      "normalRice": 17,
+      "bossRice": 170,
+      "firstClear": {
+        "rice": 10962,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 1036
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 1036
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 1036
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 112
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 112
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 112
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-08",
+      "normalExperience": 67,
+      "bossExperience": 335,
+      "normalRice": 18,
+      "bossRice": 180,
+      "firstClear": {
+        "rice": 12528,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 1184
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 1184
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 1184
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 128
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 128
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 128
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-09",
+      "normalExperience": 68,
+      "bossExperience": 340,
+      "normalRice": 19,
+      "bossRice": 190,
+      "firstClear": {
+        "rice": 14094,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 1332
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 1332
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 1332
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 144
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 144
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 144
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.02-10",
+      "normalExperience": 68,
+      "bossExperience": 340,
+      "normalRice": 20,
+      "bossRice": 200,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 6
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-01",
+      "normalExperience": 69,
+      "bossExperience": 345,
+      "normalRice": 21,
+      "bossRice": 210,
+      "firstClear": {
+        "rice": 1044,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 99
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 99
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 99
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 11
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 11
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 11
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-02",
+      "normalExperience": 69,
+      "bossExperience": 345,
+      "normalRice": 22,
+      "bossRice": 220,
+      "firstClear": {
+        "rice": 2088,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 197
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 197
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 197
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 21
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 21
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 21
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-03",
+      "normalExperience": 70,
+      "bossExperience": 350,
+      "normalRice": 23,
+      "bossRice": 230,
+      "firstClear": {
+        "rice": 3132,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 296
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 296
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 296
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 32
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 32
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 32
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-04",
+      "normalExperience": 70,
+      "bossExperience": 350,
+      "normalRice": 24,
+      "bossRice": 240,
+      "firstClear": {
+        "rice": 4176,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 395
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 395
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 395
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 43
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 43
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 43
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-05",
+      "normalExperience": 71,
+      "bossExperience": 355,
+      "normalRice": 25,
+      "bossRice": 250,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 493
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 493
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 493
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 53
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 53
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 53
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-06",
+      "normalExperience": 71,
+      "bossExperience": 355,
+      "normalRice": 26,
+      "bossRice": 260,
+      "firstClear": {
+        "rice": 6264,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 592
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 592
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 592
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 64
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-07",
+      "normalExperience": 71,
+      "bossExperience": 355,
+      "normalRice": 27,
+      "bossRice": 270,
+      "firstClear": {
+        "rice": 7308,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 691
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 691
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 691
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 75
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 75
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 75
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-08",
+      "normalExperience": 72,
+      "bossExperience": 360,
+      "normalRice": 28,
+      "bossRice": 280,
+      "firstClear": {
+        "rice": 8352,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 789
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 789
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 789
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 85
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 85
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 85
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-09",
+      "normalExperience": 72,
+      "bossExperience": 360,
+      "normalRice": 29,
+      "bossRice": 290,
+      "firstClear": {
+        "rice": 9396,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 888
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 888
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 888
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 96
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 96
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 96
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.03-10",
+      "normalExperience": 72,
+      "bossExperience": 360,
+      "normalRice": 30,
+      "bossRice": 300,
+      "firstClear": {
+        "rice": 1770,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M1",
+            "quantity": 206
+          },
+          {
+            "itemId": "SWEET_POTATO_M1",
+            "quantity": 206
+          },
+          {
+            "itemId": "CORN_M1",
+            "quantity": 206
+          },
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 41
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 41
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 41
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 1
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 1
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 1
+          },
+          {
+            "itemId": "GEM_BOX",
+            "quantity": 30
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-01",
+      "normalExperience": 73,
+      "bossExperience": 365,
+      "normalRice": 31,
+      "bossRice": 310,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 22
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-02",
+      "normalExperience": 73,
+      "bossExperience": 365,
+      "normalRice": 32,
+      "bossRice": 320,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 44
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-03",
+      "normalExperience": 73,
+      "bossExperience": 365,
+      "normalRice": 33,
+      "bossRice": 330,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 66
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-04",
+      "normalExperience": 73,
+      "bossExperience": 365,
+      "normalRice": 34,
+      "bossRice": 340,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 88
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-05",
+      "normalExperience": 74,
+      "bossExperience": 370,
+      "normalRice": 35,
+      "bossRice": 350,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 110
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-06",
+      "normalExperience": 74,
+      "bossExperience": 370,
+      "normalRice": 36,
+      "bossRice": 360,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 132
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-07",
+      "normalExperience": 74,
+      "bossExperience": 370,
+      "normalRice": 37,
+      "bossRice": 370,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 154
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-08",
+      "normalExperience": 74,
+      "bossExperience": 370,
+      "normalRice": 38,
+      "bossRice": 380,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 176
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-09",
+      "normalExperience": 74,
+      "bossExperience": 370,
+      "normalRice": 39,
+      "bossRice": 390,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 0,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 197
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.04-10",
+      "normalExperience": 75,
+      "bossExperience": 375,
+      "normalRice": 40,
+      "bossRice": 400,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-01",
+      "normalExperience": 75,
+      "bossExperience": 375,
+      "normalRice": 41,
+      "bossRice": 410,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 22
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-02",
+      "normalExperience": 75,
+      "bossExperience": 375,
+      "normalRice": 42,
+      "bossRice": 420,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 44
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-03",
+      "normalExperience": 75,
+      "bossExperience": 375,
+      "normalRice": 43,
+      "bossRice": 430,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 66
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-04",
+      "normalExperience": 75,
+      "bossExperience": 375,
+      "normalRice": 44,
+      "bossRice": 440,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 88
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-05",
+      "normalExperience": 75,
+      "bossExperience": 375,
+      "normalRice": 45,
+      "bossRice": 450,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 110
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-06",
+      "normalExperience": 75,
+      "bossExperience": 375,
+      "normalRice": 46,
+      "bossRice": 460,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 132
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-07",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 47,
+      "bossRice": 470,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 154
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-08",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 48,
+      "bossRice": 480,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 176
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-09",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 49,
+      "bossRice": 490,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 10,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 197
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.05-10",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 50,
+      "bossRice": 500,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-01",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 51,
+      "bossRice": 510,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 4
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 4
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 4
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-02",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 52,
+      "bossRice": 520,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 9
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 9
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 9
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-03",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 53,
+      "bossRice": 530,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 13
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-04",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 54,
+      "bossRice": 540,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 17
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 17
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 17
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-05",
+      "normalExperience": 76,
+      "bossExperience": 380,
+      "normalRice": 55,
+      "bossRice": 550,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 21
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 21
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 21
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-06",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 56,
+      "bossRice": 560,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 25
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-07",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 57,
+      "bossRice": 570,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 30
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 30
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 30
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-08",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 58,
+      "bossRice": 580,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 34
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 34
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 34
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-09",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 59,
+      "bossRice": 590,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 38
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.06-10",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 60,
+      "bossRice": 600,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-01",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 61,
+      "bossRice": 610,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 110
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 22
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 4
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 4
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 4
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-02",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 62,
+      "bossRice": 620,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 220
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 44
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 9
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 9
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 9
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-03",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 63,
+      "bossRice": 630,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 330
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 66
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 13
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-04",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 64,
+      "bossRice": 640,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 439
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 88
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 17
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 17
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 17
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-05",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 65,
+      "bossRice": 650,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 549
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 110
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 21
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 21
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 21
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-06",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 66,
+      "bossRice": 660,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 659
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 132
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 25
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-07",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 67,
+      "bossRice": 670,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 769
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 154
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 30
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 30
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 30
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-08",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 68,
+      "bossRice": 680,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 879
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 176
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 34
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 34
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 34
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-09",
+      "normalExperience": 77,
+      "bossExperience": 385,
+      "normalRice": 69,
+      "bossRice": 690,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 20,
+        "items": [
+          {
+            "itemId": "POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "SWEET_POTATO_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "CORN_M2",
+            "quantity": 989
+          },
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 197
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 38
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.07-10",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 70,
+      "bossRice": 700,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-01",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 71,
+      "bossRice": 710,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 3
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 3
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 3
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-02",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 72,
+      "bossRice": 720,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 7
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 7
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 7
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-03",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 73,
+      "bossRice": 730,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-04",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 74,
+      "bossRice": 740,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-05",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 75,
+      "bossRice": 750,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 17
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 17
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 17
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-06",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 76,
+      "bossRice": 760,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 20
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 20
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 20
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-07",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 77,
+      "bossRice": 770,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-08",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 78,
+      "bossRice": 780,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 27
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 27
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 27
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-09",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 79,
+      "bossRice": 790,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 31
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 31
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 31
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.08-10",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 80,
+      "bossRice": 800,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-01",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 81,
+      "bossRice": 810,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 3
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 3
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 3
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-02",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 82,
+      "bossRice": 820,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 7
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 7
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 7
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-03",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 83,
+      "bossRice": 830,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-04",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 84,
+      "bossRice": 840,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-05",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 85,
+      "bossRice": 850,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 17
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 17
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 17
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-06",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 86,
+      "bossRice": 860,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 20
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 20
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 20
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-07",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 87,
+      "bossRice": 870,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-08",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 88,
+      "bossRice": 880,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 27
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 27
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 27
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-09",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 89,
+      "bossRice": 890,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 31
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 31
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 31
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.09-10",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 90,
+      "bossRice": 900,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-01",
+      "normalExperience": 78,
+      "bossExperience": 390,
+      "normalRice": 91,
+      "bossRice": 910,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 42
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 13
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 3
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 3
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 3
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-02",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 92,
+      "bossRice": 920,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 85
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 25
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 7
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 7
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 7
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-03",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 93,
+      "bossRice": 930,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 127
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 38
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-04",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 94,
+      "bossRice": 940,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 170
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 51
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-05",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 95,
+      "bossRice": 950,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 212
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 17
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 17
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 17
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-06",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 96,
+      "bossRice": 960,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 254
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 76
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 20
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 20
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 20
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-07",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 97,
+      "bossRice": 970,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 297
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 89
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-08",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 98,
+      "bossRice": 980,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 339
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 102
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 27
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 27
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 27
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-09",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 99,
+      "bossRice": 990,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "SWEET_POTATO_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "CORN_M3",
+            "quantity": 382
+          },
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 114
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 31
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 31
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 31
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.10-10",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 100,
+      "bossRice": 1000,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-01",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 101,
+      "bossRice": 1010,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 5
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-02",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 102,
+      "bossRice": 1020,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-03",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 103,
+      "bossRice": 1030,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-04",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 104,
+      "bossRice": 1040,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 19
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-05",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 105,
+      "bossRice": 1050,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-06",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 106,
+      "bossRice": 1060,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 29
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-07",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 107,
+      "bossRice": 1070,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 34
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-08",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 108,
+      "bossRice": 1080,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 38
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-09",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 109,
+      "bossRice": 1090,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 43
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.11-10",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 110,
+      "bossRice": 1100,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-01",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 111,
+      "bossRice": 1110,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 5
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-02",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 112,
+      "bossRice": 1120,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-03",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 113,
+      "bossRice": 1130,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-04",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 114,
+      "bossRice": 1140,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 19
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-05",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 115,
+      "bossRice": 1150,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-06",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 116,
+      "bossRice": 1160,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 29
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-07",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 117,
+      "bossRice": 1170,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 34
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-08",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 118,
+      "bossRice": 1180,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 38
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-09",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 119,
+      "bossRice": 1190,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 43
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.12-10",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 120,
+      "bossRice": 1200,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-01",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 121,
+      "bossRice": 1210,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 5
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-02",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 122,
+      "bossRice": 1220,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-03",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 123,
+      "bossRice": 1230,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-04",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 124,
+      "bossRice": 1240,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 19
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-05",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 125,
+      "bossRice": 1250,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-06",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 126,
+      "bossRice": 1260,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 29
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-07",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 127,
+      "bossRice": 1270,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 34
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-08",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 128,
+      "bossRice": 1280,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 38
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-09",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 129,
+      "bossRice": 1290,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 43
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.13-10",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 130,
+      "bossRice": 1300,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-01",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 131,
+      "bossRice": 1310,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 5
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-02",
+      "normalExperience": 79,
+      "bossExperience": 395,
+      "normalRice": 132,
+      "bossRice": 1320,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-03",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 133,
+      "bossRice": 1330,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-04",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 134,
+      "bossRice": 1340,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 19
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-05",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 135,
+      "bossRice": 1350,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-06",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 136,
+      "bossRice": 1360,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 29
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-07",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 137,
+      "bossRice": 1370,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 34
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-08",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 138,
+      "bossRice": 1380,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 38
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-09",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 139,
+      "bossRice": 1390,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 43
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.14-10",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 140,
+      "bossRice": 1400,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-01",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 141,
+      "bossRice": 1410,
+      "firstClear": {
+        "rice": 2610,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 16
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 5
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 5
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-02",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 142,
+      "bossRice": 1420,
+      "firstClear": {
+        "rice": 5220,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 32
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 10
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 10
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-03",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 143,
+      "bossRice": 1430,
+      "firstClear": {
+        "rice": 7830,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 48
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 14
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 14
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-04",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 144,
+      "bossRice": 1440,
+      "firstClear": {
+        "rice": 10440,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 64
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 19
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 19
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-05",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 145,
+      "bossRice": 1450,
+      "firstClear": {
+        "rice": 13050,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 80
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 24
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 24
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-06",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 146,
+      "bossRice": 1460,
+      "firstClear": {
+        "rice": 15660,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 96
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 29
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 29
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-07",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 147,
+      "bossRice": 1470,
+      "firstClear": {
+        "rice": 18270,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 112
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 34
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 34
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-08",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 148,
+      "bossRice": 1480,
+      "firstClear": {
+        "rice": 20880,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 128
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 38
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 38
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-09",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 149,
+      "bossRice": 1490,
+      "firstClear": {
+        "rice": 23490,
+        "tickets": 30,
+        "items": [
+          {
+            "itemId": "POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "SWEET_POTATO_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "CORN_M4",
+            "quantity": 144
+          },
+          {
+            "itemId": "POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "SWEET_POTATO_M5",
+            "quantity": 43
+          },
+          {
+            "itemId": "CORN_M5",
+            "quantity": 43
+          }
+        ],
+        "directSkillId": null
+      }
+    },
+    {
+      "stageId": "stage.15-10",
+      "normalExperience": 80,
+      "bossExperience": 400,
+      "normalRice": 150,
+      "bossRice": 1500,
+      "firstClear": {
+        "rice": 0,
+        "tickets": 20,
+        "items": [],
+        "directSkillId": null
+      }
+    }
+  ]
+}

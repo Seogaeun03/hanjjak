@@ -1,0 +1,119 @@
+/*
+ * 네온사인 간판. 어두운 판에 글자와 테두리만 빛난다.
+ *
+ * 빛은 세 겹이다 — 글자 속을 채우는 흰빛, 글자를 감싸는 색빛, 판 밖으로 번지는 넓은 색빛.
+ * 한 겹으로는 그냥 색 있는 글씨로 보이고, 세 겹이 겹쳐야 관이 빛나는 것처럼 보인다.
+ */
+.broadcast-banner-stack {
+  /* popover 기본 배치(inset: 0; margin: auto)를 걷어내고 화면 위쪽에 붙인다. */
+  position: fixed;
+  z-index: 2147483000;
+  inset: 0 0 auto 0;
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  max-width: 100%;
+  height: max-content;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  background: transparent;
+  /* 판 바깥의 빈 자리는 아래 화면이 그대로 받는다. 배너가 화면 위쪽을 막지 않는다. */
+  pointer-events: none;
+}
+.broadcast-banner-stack::backdrop { background: transparent; }
+
+.broadcast-banner {
+  --neon: #4ee2ff;
+  --neon-deep: #1b9fc4;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: clamp(8px, 1.4vw, 18px);
+  align-items: center;
+  padding: clamp(7px, 1.1vh, 13px) clamp(12px, 1.8vw, 26px);
+  border-bottom: 2px solid var(--neon-deep);
+  color: #f6feff;
+  background: linear-gradient(180deg, rgba(14, 10, 26, .97), rgba(9, 7, 18, .97));
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, .06),
+    inset 0 -14px 26px -18px var(--neon),
+    0 0 14px -2px var(--neon-deep),
+    0 8px 26px rgba(4, 2, 12, .55);
+  font-family: var(--hanjjak-font-ui);
+  font-size: clamp(13px, 1.25vw, 19px);
+  font-weight: 950;
+  letter-spacing: .01em;
+  pointer-events: auto;
+  animation: broadcast-banner-in .22s ease-out both;
+}
+.broadcast-banner-event { --neon: #ff77e1; --neon-deep: #c02fa0; }
+.broadcast-banner-warning { --neon: #ffb057; --neon-deep: #d1701a; }
+
+/* 간판 왼쪽에서 깜박이는 전구. 문장 자체는 흔들지 않는다 — 읽어야 하는 건 글자다. */
+.broadcast-banner-bulb {
+  width: clamp(8px, .8vw, 11px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--neon);
+  box-shadow: 0 0 6px var(--neon), 0 0 14px var(--neon-deep);
+  animation: broadcast-banner-bulb 1.9s ease-in-out infinite;
+}
+
+.broadcast-banner-text { min-width: 0; overflow: hidden; }
+.broadcast-banner-run { display: block; width: max-content; max-width: 100%; }
+.broadcast-banner-text b {
+  display: block;
+  width: max-content;
+  color: #ffffff;
+  text-shadow:
+    0 0 4px #ffffff,
+    0 0 10px var(--neon),
+    0 0 22px var(--neon),
+    0 0 44px var(--neon-deep);
+  white-space: nowrap;
+  animation: broadcast-banner-glow 2.6s ease-in-out infinite;
+}
+/* 칸을 넘치는 문장만 흘려 보낸다. 넘치지 않으면 제자리에서 그대로 멈춰 있다. */
+.broadcast-banner-run.marquee {
+  max-width: none;
+  padding-left: 100%;
+  animation: broadcast-banner-scroll 18s linear infinite;
+}
+.broadcast-banner-close {
+  display: grid;
+  place-items: center;
+  width: clamp(26px, 2.6vw, 32px);
+  height: clamp(26px, 2.6vw, 32px);
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 50%;
+  color: #e9f6ff;
+  background: rgba(255, 255, 255, .06);
+  font: inherit;
+  font-size: clamp(15px, 1.5vw, 20px);
+  line-height: 1;
+  cursor: pointer;
+}
+.broadcast-banner-close:hover { border-color: var(--neon); color: #ffffff; background: rgba(255, 255, 255, .14); }
+.broadcast-banner-close:focus-visible { outline: 2px solid var(--neon); outline-offset: 2px; }
+
+@keyframes broadcast-banner-in { from { opacity: 0; transform: translateY(-100%); } }
+@keyframes broadcast-banner-bulb { 0%, 44%, 52%, 100% { opacity: 1; } 48%, 50% { opacity: .25; } }
+@keyframes broadcast-banner-glow { 0%, 100% { opacity: 1; } 47% { opacity: 1; } 49% { opacity: .78; } 51% { opacity: 1; } }
+@keyframes broadcast-banner-scroll { from { transform: translateX(0); } to { transform: translateX(-100%); } }
+
+/*
+ * 깜박임과 흐름은 둘 다 멀미와 주의력 분산의 원인이다. 끄기를 켠 사람에게는 글자만 남긴다.
+ * 이때 흐르던 문장은 멈추므로 줄바꿈으로 전부 보여 준다.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .broadcast-banner, .broadcast-banner-bulb, .broadcast-banner-text b, .broadcast-banner-run.marquee { animation: none; }
+  .broadcast-banner-text { overflow: visible; }
+  .broadcast-banner-run, .broadcast-banner-text b { width: auto; max-width: 100%; padding-left: 0; white-space: normal; }
+}
+
+@media (max-width: 700px) {
+  .broadcast-banner { gap: 8px; padding-inline: 11px; }
+}

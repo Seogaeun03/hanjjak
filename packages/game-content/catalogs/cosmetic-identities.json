@@ -1,0 +1,1477 @@
+{
+  "schemaVersion": 1,
+  "sets": [
+    {
+      "key": "set:leather-guard",
+      "setId": "cosmetic-set-01",
+      "grade": "NORMAL"
+    },
+    {
+      "key": "set:scrap-knight",
+      "setId": "cosmetic-set-02",
+      "grade": "NORMAL"
+    },
+    {
+      "key": "set:bamboo-spear",
+      "setId": "cosmetic-set-03",
+      "grade": "NORMAL"
+    },
+    {
+      "key": "set:demon",
+      "setId": "cosmetic-set-04",
+      "grade": "RARE"
+    },
+    {
+      "key": "set:angel",
+      "setId": "cosmetic-set-05",
+      "grade": "RARE"
+    },
+    {
+      "key": "set:turtle-guardian",
+      "setId": "cosmetic-set-06",
+      "grade": "RARE"
+    },
+    {
+      "key": "set:rainbow-rice-cake",
+      "setId": "cosmetic-set-07",
+      "grade": "RARE"
+    },
+    {
+      "key": "set:cheongun",
+      "setId": "cosmetic-set-08",
+      "grade": "RARE"
+    },
+    {
+      "key": "set:chef",
+      "setId": "cosmetic-set-09",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:yakgwa",
+      "setId": "cosmetic-set-10",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:climbing",
+      "setId": "cosmetic-set-11",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:sushi",
+      "setId": "cosmetic-set-12",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:mage",
+      "setId": "cosmetic-set-13",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:cotton-painter",
+      "setId": "cosmetic-set-14",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:moon-rabbit",
+      "setId": "cosmetic-set-15",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:cardboard-crayon",
+      "setId": "cosmetic-set-16",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:white-fox-spirit",
+      "setId": "cosmetic-set-17",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:dokkaebi",
+      "setId": "cosmetic-set-18",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:magical-girl",
+      "setId": "cosmetic-set-19",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:snake-water-guardian",
+      "setId": "cosmetic-set-20",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:lightning-laurel",
+      "setId": "cosmetic-set-21",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:forest-spirit",
+      "setId": "cosmetic-set-22",
+      "grade": "LEGENDARY"
+    },
+    {
+      "key": "set:royal-knight",
+      "setId": "cosmetic-set-23",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:king",
+      "setId": "cosmetic-set-24",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:grim-reaper",
+      "setId": "cosmetic-set-25",
+      "grade": "EPIC"
+    },
+    {
+      "key": "set:cheerleader",
+      "setId": "cosmetic-set-26",
+      "grade": "RARE"
+    },
+    {
+      "key": "set:leaf",
+      "setId": "cosmetic-set-27",
+      "grade": "NORMAL"
+    },
+    {
+      "key": "set:meat-skewer",
+      "setId": "cosmetic-set-28",
+      "grade": "NORMAL"
+    }
+  ],
+  "cosmetics": [
+    {
+      "key": "set:leather-guard:HEAD",
+      "cosmeticId": "cosmetic-001",
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setKey": "set:leather-guard"
+    },
+    {
+      "key": "set:leather-guard:TOP",
+      "cosmeticId": "cosmetic-002",
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setKey": "set:leather-guard"
+    },
+    {
+      "key": "set:leather-guard:BOTTOM",
+      "cosmeticId": "cosmetic-003",
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setKey": "set:leather-guard"
+    },
+    {
+      "key": "set:leather-guard:GLOVES",
+      "cosmeticId": "cosmetic-004",
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setKey": "set:leather-guard"
+    },
+    {
+      "key": "set:leather-guard:SHOES",
+      "cosmeticId": "cosmetic-005",
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setKey": "set:leather-guard"
+    },
+    {
+      "key": "set:leather-guard:CAPE",
+      "cosmeticId": "cosmetic-006",
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setKey": "set:leather-guard"
+    },
+    {
+      "key": "set:scrap-knight:HEAD",
+      "cosmeticId": "cosmetic-007",
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setKey": "set:scrap-knight"
+    },
+    {
+      "key": "set:scrap-knight:TOP",
+      "cosmeticId": "cosmetic-008",
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setKey": "set:scrap-knight"
+    },
+    {
+      "key": "set:scrap-knight:BOTTOM",
+      "cosmeticId": "cosmetic-009",
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setKey": "set:scrap-knight"
+    },
+    {
+      "key": "set:scrap-knight:GLOVES",
+      "cosmeticId": "cosmetic-010",
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setKey": "set:scrap-knight"
+    },
+    {
+      "key": "set:scrap-knight:SHOES",
+      "cosmeticId": "cosmetic-011",
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setKey": "set:scrap-knight"
+    },
+    {
+      "key": "set:scrap-knight:CAPE",
+      "cosmeticId": "cosmetic-012",
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setKey": "set:scrap-knight"
+    },
+    {
+      "key": "set:bamboo-spear:HEAD",
+      "cosmeticId": "cosmetic-013",
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setKey": "set:bamboo-spear"
+    },
+    {
+      "key": "set:bamboo-spear:TOP",
+      "cosmeticId": "cosmetic-014",
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setKey": "set:bamboo-spear"
+    },
+    {
+      "key": "set:bamboo-spear:BOTTOM",
+      "cosmeticId": "cosmetic-015",
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setKey": "set:bamboo-spear"
+    },
+    {
+      "key": "set:bamboo-spear:GLOVES",
+      "cosmeticId": "cosmetic-016",
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setKey": "set:bamboo-spear"
+    },
+    {
+      "key": "set:bamboo-spear:SHOES",
+      "cosmeticId": "cosmetic-017",
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setKey": "set:bamboo-spear"
+    },
+    {
+      "key": "set:bamboo-spear:CAPE",
+      "cosmeticId": "cosmetic-018",
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setKey": "set:bamboo-spear"
+    },
+    {
+      "key": "single:afro:hat",
+      "cosmeticId": "cosmetic-019",
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setKey": null
+    },
+    {
+      "key": "single:afro:glasses",
+      "cosmeticId": "cosmetic-020",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:afro:shoes",
+      "cosmeticId": "cosmetic-021",
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setKey": null
+    },
+    {
+      "key": "single:blusher:face",
+      "cosmeticId": "cosmetic-022",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:odd-eye:face",
+      "cosmeticId": "cosmetic-023",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "set:demon:HEAD",
+      "cosmeticId": "cosmetic-024",
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setKey": "set:demon"
+    },
+    {
+      "key": "set:demon:TOP",
+      "cosmeticId": "cosmetic-025",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": "set:demon"
+    },
+    {
+      "key": "set:demon:BOTTOM",
+      "cosmeticId": "cosmetic-026",
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setKey": "set:demon"
+    },
+    {
+      "key": "set:demon:GLOVES",
+      "cosmeticId": "cosmetic-027",
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setKey": "set:demon"
+    },
+    {
+      "key": "set:demon:SHOES",
+      "cosmeticId": "cosmetic-028",
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setKey": "set:demon"
+    },
+    {
+      "key": "set:demon:CAPE",
+      "cosmeticId": "cosmetic-029",
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setKey": "set:demon"
+    },
+    {
+      "key": "set:angel:HEAD",
+      "cosmeticId": "cosmetic-030",
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setKey": "set:angel"
+    },
+    {
+      "key": "set:angel:TOP",
+      "cosmeticId": "cosmetic-031",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": "set:angel"
+    },
+    {
+      "key": "set:angel:BOTTOM",
+      "cosmeticId": "cosmetic-032",
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setKey": "set:angel"
+    },
+    {
+      "key": "set:angel:GLOVES",
+      "cosmeticId": "cosmetic-033",
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setKey": "set:angel"
+    },
+    {
+      "key": "set:angel:SHOES",
+      "cosmeticId": "cosmetic-034",
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setKey": "set:angel"
+    },
+    {
+      "key": "set:angel:CAPE",
+      "cosmeticId": "cosmetic-035",
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setKey": "set:angel"
+    },
+    {
+      "key": "set:turtle-guardian:HEAD",
+      "cosmeticId": "cosmetic-036",
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setKey": "set:turtle-guardian"
+    },
+    {
+      "key": "set:turtle-guardian:TOP",
+      "cosmeticId": "cosmetic-037",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": "set:turtle-guardian"
+    },
+    {
+      "key": "set:turtle-guardian:BOTTOM",
+      "cosmeticId": "cosmetic-038",
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setKey": "set:turtle-guardian"
+    },
+    {
+      "key": "set:turtle-guardian:GLOVES",
+      "cosmeticId": "cosmetic-039",
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setKey": "set:turtle-guardian"
+    },
+    {
+      "key": "set:turtle-guardian:SHOES",
+      "cosmeticId": "cosmetic-040",
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setKey": "set:turtle-guardian"
+    },
+    {
+      "key": "set:turtle-guardian:CAPE",
+      "cosmeticId": "cosmetic-041",
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setKey": "set:turtle-guardian"
+    },
+    {
+      "key": "set:rainbow-rice-cake:HEAD",
+      "cosmeticId": "cosmetic-042",
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setKey": "set:rainbow-rice-cake"
+    },
+    {
+      "key": "set:rainbow-rice-cake:TOP",
+      "cosmeticId": "cosmetic-043",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": "set:rainbow-rice-cake"
+    },
+    {
+      "key": "set:rainbow-rice-cake:BOTTOM",
+      "cosmeticId": "cosmetic-044",
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setKey": "set:rainbow-rice-cake"
+    },
+    {
+      "key": "set:rainbow-rice-cake:GLOVES",
+      "cosmeticId": "cosmetic-045",
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setKey": "set:rainbow-rice-cake"
+    },
+    {
+      "key": "set:rainbow-rice-cake:SHOES",
+      "cosmeticId": "cosmetic-046",
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setKey": "set:rainbow-rice-cake"
+    },
+    {
+      "key": "set:rainbow-rice-cake:CAPE",
+      "cosmeticId": "cosmetic-047",
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setKey": "set:rainbow-rice-cake"
+    },
+    {
+      "key": "set:cheongun:HEAD",
+      "cosmeticId": "cosmetic-048",
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setKey": "set:cheongun"
+    },
+    {
+      "key": "set:cheongun:TOP",
+      "cosmeticId": "cosmetic-049",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": "set:cheongun"
+    },
+    {
+      "key": "set:cheongun:BOTTOM",
+      "cosmeticId": "cosmetic-050",
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setKey": "set:cheongun"
+    },
+    {
+      "key": "set:cheongun:GLOVES",
+      "cosmeticId": "cosmetic-051",
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setKey": "set:cheongun"
+    },
+    {
+      "key": "set:cheongun:SHOES",
+      "cosmeticId": "cosmetic-052",
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setKey": "set:cheongun"
+    },
+    {
+      "key": "set:cheongun:CAPE",
+      "cosmeticId": "cosmetic-053",
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setKey": "set:cheongun"
+    },
+    {
+      "key": "set:chef:HEAD",
+      "cosmeticId": "cosmetic-054",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:chef"
+    },
+    {
+      "key": "set:chef:TOP",
+      "cosmeticId": "cosmetic-055",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:chef"
+    },
+    {
+      "key": "set:chef:BOTTOM",
+      "cosmeticId": "cosmetic-056",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:chef"
+    },
+    {
+      "key": "set:chef:GLOVES",
+      "cosmeticId": "cosmetic-057",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:chef"
+    },
+    {
+      "key": "set:chef:SHOES",
+      "cosmeticId": "cosmetic-058",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:chef"
+    },
+    {
+      "key": "set:chef:CAPE",
+      "cosmeticId": "cosmetic-059",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:chef"
+    },
+    {
+      "key": "set:yakgwa:HEAD",
+      "cosmeticId": "cosmetic-060",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:yakgwa"
+    },
+    {
+      "key": "set:yakgwa:TOP",
+      "cosmeticId": "cosmetic-061",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:yakgwa"
+    },
+    {
+      "key": "set:yakgwa:BOTTOM",
+      "cosmeticId": "cosmetic-062",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:yakgwa"
+    },
+    {
+      "key": "set:yakgwa:GLOVES",
+      "cosmeticId": "cosmetic-063",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:yakgwa"
+    },
+    {
+      "key": "set:yakgwa:SHOES",
+      "cosmeticId": "cosmetic-064",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:yakgwa"
+    },
+    {
+      "key": "set:yakgwa:CAPE",
+      "cosmeticId": "cosmetic-065",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:yakgwa"
+    },
+    {
+      "key": "set:climbing:HEAD",
+      "cosmeticId": "cosmetic-066",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:climbing"
+    },
+    {
+      "key": "set:climbing:TOP",
+      "cosmeticId": "cosmetic-067",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:climbing"
+    },
+    {
+      "key": "set:climbing:BOTTOM",
+      "cosmeticId": "cosmetic-068",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:climbing"
+    },
+    {
+      "key": "set:climbing:GLOVES",
+      "cosmeticId": "cosmetic-069",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:climbing"
+    },
+    {
+      "key": "set:climbing:SHOES",
+      "cosmeticId": "cosmetic-070",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:climbing"
+    },
+    {
+      "key": "set:climbing:CAPE",
+      "cosmeticId": "cosmetic-071",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:climbing"
+    },
+    {
+      "key": "single:music-box:back",
+      "cosmeticId": "cosmetic-072",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": null
+    },
+    {
+      "key": "single:music-box:hat",
+      "cosmeticId": "cosmetic-073",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": null
+    },
+    {
+      "key": "single:music-box:weapon",
+      "cosmeticId": "cosmetic-074",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": null
+    },
+    {
+      "key": "set:sushi:HEAD",
+      "cosmeticId": "cosmetic-075",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:sushi"
+    },
+    {
+      "key": "set:sushi:TOP",
+      "cosmeticId": "cosmetic-076",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:sushi"
+    },
+    {
+      "key": "set:sushi:BOTTOM",
+      "cosmeticId": "cosmetic-077",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:sushi"
+    },
+    {
+      "key": "set:sushi:GLOVES",
+      "cosmeticId": "cosmetic-078",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:sushi"
+    },
+    {
+      "key": "set:sushi:SHOES",
+      "cosmeticId": "cosmetic-079",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:sushi"
+    },
+    {
+      "key": "set:sushi:CAPE",
+      "cosmeticId": "cosmetic-080",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:sushi"
+    },
+    {
+      "key": "set:mage:HEAD",
+      "cosmeticId": "cosmetic-081",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:mage"
+    },
+    {
+      "key": "set:mage:TOP",
+      "cosmeticId": "cosmetic-082",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:mage"
+    },
+    {
+      "key": "set:mage:BOTTOM",
+      "cosmeticId": "cosmetic-083",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:mage"
+    },
+    {
+      "key": "set:mage:GLOVES",
+      "cosmeticId": "cosmetic-084",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:mage"
+    },
+    {
+      "key": "set:mage:SHOES",
+      "cosmeticId": "cosmetic-085",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:mage"
+    },
+    {
+      "key": "set:mage:CAPE",
+      "cosmeticId": "cosmetic-086",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:mage"
+    },
+    {
+      "key": "set:cotton-painter:HEAD",
+      "cosmeticId": "cosmetic-087",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:cotton-painter"
+    },
+    {
+      "key": "set:cotton-painter:TOP",
+      "cosmeticId": "cosmetic-088",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:cotton-painter"
+    },
+    {
+      "key": "set:cotton-painter:BOTTOM",
+      "cosmeticId": "cosmetic-089",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:cotton-painter"
+    },
+    {
+      "key": "set:cotton-painter:GLOVES",
+      "cosmeticId": "cosmetic-090",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:cotton-painter"
+    },
+    {
+      "key": "set:cotton-painter:SHOES",
+      "cosmeticId": "cosmetic-091",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:cotton-painter"
+    },
+    {
+      "key": "set:cotton-painter:CAPE",
+      "cosmeticId": "cosmetic-092",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:cotton-painter"
+    },
+    {
+      "key": "set:moon-rabbit:HEAD",
+      "cosmeticId": "cosmetic-093",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:moon-rabbit"
+    },
+    {
+      "key": "set:moon-rabbit:TOP",
+      "cosmeticId": "cosmetic-094",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:moon-rabbit"
+    },
+    {
+      "key": "set:moon-rabbit:BOTTOM",
+      "cosmeticId": "cosmetic-095",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:moon-rabbit"
+    },
+    {
+      "key": "set:moon-rabbit:GLOVES",
+      "cosmeticId": "cosmetic-096",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:moon-rabbit"
+    },
+    {
+      "key": "set:moon-rabbit:SHOES",
+      "cosmeticId": "cosmetic-097",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:moon-rabbit"
+    },
+    {
+      "key": "set:moon-rabbit:CAPE",
+      "cosmeticId": "cosmetic-098",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:moon-rabbit"
+    },
+    {
+      "key": "set:cardboard-crayon:HEAD",
+      "cosmeticId": "cosmetic-099",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:cardboard-crayon"
+    },
+    {
+      "key": "set:cardboard-crayon:TOP",
+      "cosmeticId": "cosmetic-100",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:cardboard-crayon"
+    },
+    {
+      "key": "set:cardboard-crayon:BOTTOM",
+      "cosmeticId": "cosmetic-101",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:cardboard-crayon"
+    },
+    {
+      "key": "set:cardboard-crayon:GLOVES",
+      "cosmeticId": "cosmetic-102",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:cardboard-crayon"
+    },
+    {
+      "key": "set:cardboard-crayon:SHOES",
+      "cosmeticId": "cosmetic-103",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:cardboard-crayon"
+    },
+    {
+      "key": "set:cardboard-crayon:CAPE",
+      "cosmeticId": "cosmetic-104",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:cardboard-crayon"
+    },
+    {
+      "key": "set:white-fox-spirit:HEAD",
+      "cosmeticId": "cosmetic-105",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:white-fox-spirit"
+    },
+    {
+      "key": "set:white-fox-spirit:TOP",
+      "cosmeticId": "cosmetic-106",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:white-fox-spirit"
+    },
+    {
+      "key": "set:white-fox-spirit:BOTTOM",
+      "cosmeticId": "cosmetic-107",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:white-fox-spirit"
+    },
+    {
+      "key": "set:white-fox-spirit:GLOVES",
+      "cosmeticId": "cosmetic-108",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:white-fox-spirit"
+    },
+    {
+      "key": "set:white-fox-spirit:SHOES",
+      "cosmeticId": "cosmetic-109",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:white-fox-spirit"
+    },
+    {
+      "key": "set:white-fox-spirit:CAPE",
+      "cosmeticId": "cosmetic-110",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:white-fox-spirit"
+    },
+    {
+      "key": "set:dokkaebi:HEAD",
+      "cosmeticId": "cosmetic-111",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:dokkaebi"
+    },
+    {
+      "key": "set:dokkaebi:TOP",
+      "cosmeticId": "cosmetic-112",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:dokkaebi"
+    },
+    {
+      "key": "set:dokkaebi:BOTTOM",
+      "cosmeticId": "cosmetic-113",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:dokkaebi"
+    },
+    {
+      "key": "set:dokkaebi:GLOVES",
+      "cosmeticId": "cosmetic-114",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:dokkaebi"
+    },
+    {
+      "key": "set:dokkaebi:SHOES",
+      "cosmeticId": "cosmetic-115",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:dokkaebi"
+    },
+    {
+      "key": "set:dokkaebi:CAPE",
+      "cosmeticId": "cosmetic-116",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:dokkaebi"
+    },
+    {
+      "key": "set:magical-girl:HEAD",
+      "cosmeticId": "cosmetic-117",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:magical-girl"
+    },
+    {
+      "key": "set:magical-girl:TOP",
+      "cosmeticId": "cosmetic-118",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:magical-girl"
+    },
+    {
+      "key": "set:magical-girl:BOTTOM",
+      "cosmeticId": "cosmetic-119",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:magical-girl"
+    },
+    {
+      "key": "set:magical-girl:GLOVES",
+      "cosmeticId": "cosmetic-120",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:magical-girl"
+    },
+    {
+      "key": "set:magical-girl:SHOES",
+      "cosmeticId": "cosmetic-121",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:magical-girl"
+    },
+    {
+      "key": "set:magical-girl:CAPE",
+      "cosmeticId": "cosmetic-122",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:magical-girl"
+    },
+    {
+      "key": "set:snake-water-guardian:HEAD",
+      "cosmeticId": "cosmetic-123",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:snake-water-guardian"
+    },
+    {
+      "key": "set:snake-water-guardian:TOP",
+      "cosmeticId": "cosmetic-124",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:snake-water-guardian"
+    },
+    {
+      "key": "set:snake-water-guardian:BOTTOM",
+      "cosmeticId": "cosmetic-125",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:snake-water-guardian"
+    },
+    {
+      "key": "set:snake-water-guardian:GLOVES",
+      "cosmeticId": "cosmetic-126",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:snake-water-guardian"
+    },
+    {
+      "key": "set:snake-water-guardian:SHOES",
+      "cosmeticId": "cosmetic-127",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:snake-water-guardian"
+    },
+    {
+      "key": "set:snake-water-guardian:CAPE",
+      "cosmeticId": "cosmetic-128",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:snake-water-guardian"
+    },
+    {
+      "key": "set:lightning-laurel:HEAD",
+      "cosmeticId": "cosmetic-129",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:lightning-laurel"
+    },
+    {
+      "key": "set:lightning-laurel:TOP",
+      "cosmeticId": "cosmetic-130",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:lightning-laurel"
+    },
+    {
+      "key": "set:lightning-laurel:BOTTOM",
+      "cosmeticId": "cosmetic-131",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:lightning-laurel"
+    },
+    {
+      "key": "set:lightning-laurel:GLOVES",
+      "cosmeticId": "cosmetic-132",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:lightning-laurel"
+    },
+    {
+      "key": "set:lightning-laurel:SHOES",
+      "cosmeticId": "cosmetic-133",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:lightning-laurel"
+    },
+    {
+      "key": "set:lightning-laurel:CAPE",
+      "cosmeticId": "cosmetic-134",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:lightning-laurel"
+    },
+    {
+      "key": "set:forest-spirit:HEAD",
+      "cosmeticId": "cosmetic-135",
+      "grade": "LEGENDARY",
+      "slot": "HEAD",
+      "setKey": "set:forest-spirit"
+    },
+    {
+      "key": "set:forest-spirit:TOP",
+      "cosmeticId": "cosmetic-136",
+      "grade": "LEGENDARY",
+      "slot": "TOP",
+      "setKey": "set:forest-spirit"
+    },
+    {
+      "key": "set:forest-spirit:BOTTOM",
+      "cosmeticId": "cosmetic-137",
+      "grade": "LEGENDARY",
+      "slot": "BOTTOM",
+      "setKey": "set:forest-spirit"
+    },
+    {
+      "key": "set:forest-spirit:GLOVES",
+      "cosmeticId": "cosmetic-138",
+      "grade": "LEGENDARY",
+      "slot": "GLOVES",
+      "setKey": "set:forest-spirit"
+    },
+    {
+      "key": "set:forest-spirit:SHOES",
+      "cosmeticId": "cosmetic-139",
+      "grade": "LEGENDARY",
+      "slot": "SHOES",
+      "setKey": "set:forest-spirit"
+    },
+    {
+      "key": "set:forest-spirit:CAPE",
+      "cosmeticId": "cosmetic-140",
+      "grade": "LEGENDARY",
+      "slot": "CAPE",
+      "setKey": "set:forest-spirit"
+    },
+    {
+      "key": "set:royal-knight:HEAD",
+      "cosmeticId": "cosmetic-141",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:royal-knight"
+    },
+    {
+      "key": "set:royal-knight:TOP",
+      "cosmeticId": "cosmetic-142",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:royal-knight"
+    },
+    {
+      "key": "set:royal-knight:BOTTOM",
+      "cosmeticId": "cosmetic-143",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:royal-knight"
+    },
+    {
+      "key": "set:royal-knight:GLOVES",
+      "cosmeticId": "cosmetic-144",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:royal-knight"
+    },
+    {
+      "key": "set:royal-knight:SHOES",
+      "cosmeticId": "cosmetic-145",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:royal-knight"
+    },
+    {
+      "key": "set:royal-knight:CAPE",
+      "cosmeticId": "cosmetic-146",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:royal-knight"
+    },
+    {
+      "key": "set:king:HEAD",
+      "cosmeticId": "cosmetic-147",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:king"
+    },
+    {
+      "key": "set:king:TOP",
+      "cosmeticId": "cosmetic-148",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:king"
+    },
+    {
+      "key": "set:king:BOTTOM",
+      "cosmeticId": "cosmetic-149",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:king"
+    },
+    {
+      "key": "set:king:GLOVES",
+      "cosmeticId": "cosmetic-150",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:king"
+    },
+    {
+      "key": "set:king:SHOES",
+      "cosmeticId": "cosmetic-151",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:king"
+    },
+    {
+      "key": "set:king:CAPE",
+      "cosmeticId": "cosmetic-152",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:king"
+    },
+    {
+      "key": "set:grim-reaper:HEAD",
+      "cosmeticId": "cosmetic-153",
+      "grade": "EPIC",
+      "slot": "HEAD",
+      "setKey": "set:grim-reaper"
+    },
+    {
+      "key": "set:grim-reaper:TOP",
+      "cosmeticId": "cosmetic-154",
+      "grade": "EPIC",
+      "slot": "TOP",
+      "setKey": "set:grim-reaper"
+    },
+    {
+      "key": "set:grim-reaper:BOTTOM",
+      "cosmeticId": "cosmetic-155",
+      "grade": "EPIC",
+      "slot": "BOTTOM",
+      "setKey": "set:grim-reaper"
+    },
+    {
+      "key": "set:grim-reaper:GLOVES",
+      "cosmeticId": "cosmetic-156",
+      "grade": "EPIC",
+      "slot": "GLOVES",
+      "setKey": "set:grim-reaper"
+    },
+    {
+      "key": "set:grim-reaper:SHOES",
+      "cosmeticId": "cosmetic-157",
+      "grade": "EPIC",
+      "slot": "SHOES",
+      "setKey": "set:grim-reaper"
+    },
+    {
+      "key": "set:grim-reaper:CAPE",
+      "cosmeticId": "cosmetic-158",
+      "grade": "EPIC",
+      "slot": "CAPE",
+      "setKey": "set:grim-reaper"
+    },
+    {
+      "key": "set:cheerleader:HEAD",
+      "cosmeticId": "cosmetic-159",
+      "grade": "RARE",
+      "slot": "HEAD",
+      "setKey": "set:cheerleader"
+    },
+    {
+      "key": "set:cheerleader:TOP",
+      "cosmeticId": "cosmetic-160",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": "set:cheerleader"
+    },
+    {
+      "key": "set:cheerleader:BOTTOM",
+      "cosmeticId": "cosmetic-161",
+      "grade": "RARE",
+      "slot": "BOTTOM",
+      "setKey": "set:cheerleader"
+    },
+    {
+      "key": "set:cheerleader:GLOVES",
+      "cosmeticId": "cosmetic-162",
+      "grade": "RARE",
+      "slot": "GLOVES",
+      "setKey": "set:cheerleader"
+    },
+    {
+      "key": "set:cheerleader:SHOES",
+      "cosmeticId": "cosmetic-163",
+      "grade": "RARE",
+      "slot": "SHOES",
+      "setKey": "set:cheerleader"
+    },
+    {
+      "key": "set:cheerleader:CAPE",
+      "cosmeticId": "cosmetic-164",
+      "grade": "RARE",
+      "slot": "CAPE",
+      "setKey": "set:cheerleader"
+    },
+    {
+      "key": "set:leaf:HEAD",
+      "cosmeticId": "cosmetic-165",
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setKey": "set:leaf"
+    },
+    {
+      "key": "set:leaf:TOP",
+      "cosmeticId": "cosmetic-166",
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setKey": "set:leaf"
+    },
+    {
+      "key": "set:leaf:BOTTOM",
+      "cosmeticId": "cosmetic-167",
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setKey": "set:leaf"
+    },
+    {
+      "key": "set:leaf:GLOVES",
+      "cosmeticId": "cosmetic-168",
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setKey": "set:leaf"
+    },
+    {
+      "key": "set:leaf:SHOES",
+      "cosmeticId": "cosmetic-169",
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setKey": "set:leaf"
+    },
+    {
+      "key": "set:leaf:CAPE",
+      "cosmeticId": "cosmetic-170",
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setKey": "set:leaf"
+    },
+    {
+      "key": "set:meat-skewer:HEAD",
+      "cosmeticId": "cosmetic-171",
+      "grade": "NORMAL",
+      "slot": "HEAD",
+      "setKey": "set:meat-skewer"
+    },
+    {
+      "key": "set:meat-skewer:TOP",
+      "cosmeticId": "cosmetic-172",
+      "grade": "NORMAL",
+      "slot": "TOP",
+      "setKey": "set:meat-skewer"
+    },
+    {
+      "key": "set:meat-skewer:BOTTOM",
+      "cosmeticId": "cosmetic-173",
+      "grade": "NORMAL",
+      "slot": "BOTTOM",
+      "setKey": "set:meat-skewer"
+    },
+    {
+      "key": "set:meat-skewer:GLOVES",
+      "cosmeticId": "cosmetic-174",
+      "grade": "NORMAL",
+      "slot": "GLOVES",
+      "setKey": "set:meat-skewer"
+    },
+    {
+      "key": "set:meat-skewer:SHOES",
+      "cosmeticId": "cosmetic-175",
+      "grade": "NORMAL",
+      "slot": "SHOES",
+      "setKey": "set:meat-skewer"
+    },
+    {
+      "key": "set:meat-skewer:CAPE",
+      "cosmeticId": "cosmetic-176",
+      "grade": "NORMAL",
+      "slot": "CAPE",
+      "setKey": "set:meat-skewer"
+    },
+    {
+      "key": "single:geek-chic-glasses:face",
+      "cosmeticId": "cosmetic-177",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:neon-glasses:face",
+      "cosmeticId": "cosmetic-178",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:tears:face",
+      "cosmeticId": "cosmetic-179",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:face-mask:face",
+      "cosmeticId": "cosmetic-180",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:octopus-mouth:face",
+      "cosmeticId": "cosmetic-181",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:bandage:face",
+      "cosmeticId": "cosmetic-182",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:santa-nose:face",
+      "cosmeticId": "cosmetic-183",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:aing-eyes:face",
+      "cosmeticId": "cosmetic-184",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:duck-mouth:face",
+      "cosmeticId": "cosmetic-185",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:pacifier:face",
+      "cosmeticId": "cosmetic-186",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:cardboard-brows:face",
+      "cosmeticId": "cosmetic-187",
+      "grade": "NORMAL",
+      "slot": "FACE",
+      "setKey": null
+    },
+    {
+      "key": "single:ssafy-hood-black:body",
+      "cosmeticId": "cosmetic-188",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": null
+    },
+    {
+      "key": "single:ssafy-hood-blue:body",
+      "cosmeticId": "cosmetic-189",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": null
+    },
+    {
+      "key": "single:ssafy-hood-white:body",
+      "cosmeticId": "cosmetic-190",
+      "grade": "RARE",
+      "slot": "TOP",
+      "setKey": null
+    }
+  ]
+}

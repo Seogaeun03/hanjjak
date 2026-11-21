@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한짝 - 젓가락 키우기</title>
+<meta name="description" content="바탕화면 한편에서 자라는 나의 젓가락 한 짝. 대규모 업데이트">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<!-- 공유 카드. og:image 는 절대 URL 이어야 크롤러가 받아 간다. 빌드의 webp 변환은 PNG 만
+     건드리므로, 크롤러 호환이 넓은 JPEG 로 두어 원본 그대로 나가게 한다. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="한짝 - 젓가락 키우기">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://hanjjak.verte.kr/">
+<meta property="og:title" content="한짝 - 젓가락 키우기">
+<meta property="og:description" content="바탕화면 한편에서 자라는 나의 젓가락 한 짝. 대규모 업데이트">
+<meta property="og:image" content="https://hanjjak.verte.kr/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="치장 대규모 업데이트 - 신규 치장 세트 대거 출시">
+<meta name="twitter:card" content="summary_large_image">
+<!-- 마지막으로 본 전투 배경(LCP)을 JS 보다 먼저 받기 시작한다. 키와 패턴은
+     src/features/battle/battleBackgroundHint.ts 와 같아야 한다. -->
+<script>
+try {
+  var hint = localStorage.getItem("hanjjak.battle-background");
+  if (hint && /^\/assets\/[A-Za-z0-9\/_.-]+\.(?:webp|png|jpe?g)$/.test(hint) && hint.indexOf("..") < 0) {
+    var link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = hint;
+    link.setAttribute("fetchpriority", "high");
+    document.head.appendChild(link);
+  }
+} catch (error) {}
+</script>
+</head>
+<body>
+<div id="root"></div><script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

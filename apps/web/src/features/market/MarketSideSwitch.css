@@ -1,0 +1,56 @@
+/* 사는 쪽은 초록, 파는 쪽은 붉은색으로 고정한다. 두 화면이 같은 색을 써야 한쪽에서
+   익힌 것이 다른 쪽에서 어긋나지 않는다. */
+.market-side-switch {
+  --side-buy: #456e50;
+  --side-sell: #bc5147;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  min-height: 48px;
+  padding: 4px;
+  overflow: hidden;
+  border: 2px solid rgba(139, 99, 63, .4);
+  border-radius: 12px;
+  background: rgba(255, 250, 236, .92);
+  cursor: pointer;
+  font: inherit;
+}
+.market-side-switch-thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  border-radius: 9px;
+  box-shadow: 0 2px 0 rgba(56, 29, 13, .22);
+  transition: transform .16s ease, background .16s ease;
+}
+.market-side-switch.is-buy .market-side-switch-thumb { background: var(--side-buy); transform: translateX(0); }
+.market-side-switch.is-sell .market-side-switch-thumb { background: var(--side-sell); transform: translateX(100%); }
+.market-side-switch-face {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #8a6c4d;
+  font-size: clamp(14px, 1vw, 18px);
+  font-weight: 800;
+  transition: color .16s ease;
+}
+/* 손잡이가 앉은 쪽 글자만 흰색으로 올라온다. 손잡이도 span 이라 :first-of-type 으로는
+   글자에 닿지 않는다. 이름을 붙여 곧장 가리킨다. */
+.market-side-switch.is-buy .is-buy-face,
+.market-side-switch.is-sell .is-sell-face { color: #fff8ef; text-shadow: 0 1px 0 rgba(30, 44, 34, .45); }
+/* 손잡이 밖에 남은 글자는 종이 위라 어두운 갈색이 읽힌다. */
+.market-side-switch.is-sell .is-buy-face,
+.market-side-switch.is-buy .is-sell-face { color: #7a5c3e; }
+.market-side-switch img { width: 20px; height: 20px; object-fit: contain; }
+.market-side-switch:disabled { cursor: not-allowed; opacity: .55; }
+.market-side-switch:focus-visible { outline: 3px solid rgba(235, 78, 63, .5); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .market-side-switch-thumb { transition: none; }
+}

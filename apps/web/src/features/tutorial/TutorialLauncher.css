@@ -1,0 +1,70 @@
+/* FINAL / Profile Quick Button / Tutorial (Figma 758:1011). */
+.cozy-battle-stage-shell > .cozy-tutorial-launcher { zoom: var(--cozy-hud-zoom, 1); }
+
+.cozy-tutorial-launcher {
+  position: absolute;
+  z-index: 15;
+  top: calc(var(--hud-edge-top, 20px) + 85px);
+  left: calc(var(--hud-edge-left, 20px) + 117px);
+}
+
+.cozy-tutorial-trigger {
+  position: relative;
+  display: block;
+  width: 127px;
+  height: 62px;
+  padding: 0;
+  border: 0;
+  border-image: none;
+  background: var(--tutorial-button-base) center / 100% 100% no-repeat;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+
+.cozy-tutorial-trigger:hover { filter: brightness(1.05); }
+.cozy-tutorial-trigger:active { transform: translateY(2px) scale(.98); filter: brightness(.94); }
+.cozy-tutorial-trigger:focus-visible { outline: 3px solid rgba(217, 84, 76, .72); outline-offset: 3px; }
+
+.cozy-tutorial-guide {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 51px;
+  height: 51px;
+  background: var(--tutorial-guide-icon) center / contain no-repeat;
+  image-rendering: pixelated;
+}
+
+.cozy-tutorial-label {
+  position: absolute;
+  top: 21px;
+  left: 45px;
+  width: 72px;
+  color: #2e120a;
+  font-family: var(--hanjjak-font-ui);
+  font-size: 20px;
+  font-weight: 1000;
+  line-height: 1.35;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 1080px) {
+  /* 스테이지 판이 화면 폭을 다 쓰므로 전투 기록과 함께 판 아래로 내려온다. 기준선은
+     BattleHud.css 가 --cozy-hud-column-top 으로 정하고, 전투 기록 단추 한 칸만큼
+     더 내려와 같은 세로줄을 이룬다. */
+  .cozy-tutorial-launcher { top: calc(var(--cozy-hud-column-top) + var(--cozy-hud-trigger-step)); }
+}
+
+@media (max-width: 620px) {
+  /* 세로 자리는 위 기준선이 그대로 맡는다. 여기서는 화면 가장자리 여백만 좁힌다.
+     세로가 짧아 전투 기록과 나란히 눕는 경우는 BattleHud.css 가 맡는다. */
+  .cozy-tutorial-launcher { left: 10px; }
+  .cozy-tutorial-trigger { width: 106px; height: 52px; }
+  .cozy-tutorial-guide { top: 8px; width: 43px; height: 43px; }
+  .cozy-tutorial-label { top: 18px; left: 38px; width: 60px; font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cozy-tutorial-trigger:active { transform: none; }
+}

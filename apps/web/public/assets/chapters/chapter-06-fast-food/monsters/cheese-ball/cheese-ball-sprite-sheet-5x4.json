@@ -1,0 +1,28 @@
+{
+  "slug": "cheese-ball",
+  "name": "치즈볼",
+  "status": "game-ready",
+  "image": "cheese-ball-sprite-sheet-5x4.png",
+  "frameSize": [
+    492,
+    492
+  ],
+  "sheetSize": [
+    1968,
+    2460
+  ],
+  "grid": [
+    4,
+    5
+  ],
+  "order": [
+    "idle",
+    "move",
+    "attack",
+    "hit",
+    "defeat"
+  ],
+  "framesPerMotion": 4,
+  "source": "art/monster/06-패스트푸드",
+  "notes": []
+}

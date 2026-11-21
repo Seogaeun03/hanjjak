@@ -1,0 +1,28 @@
+{
+  "slug": "cola",
+  "name": "콜라",
+  "status": "game-ready",
+  "image": "cola-sprite-sheet-5x4.png",
+  "frameSize": [
+    494,
+    494
+  ],
+  "sheetSize": [
+    1976,
+    2470
+  ],
+  "grid": [
+    4,
+    5
+  ],
+  "order": [
+    "idle",
+    "move",
+    "attack",
+    "hit",
+    "defeat"
+  ],
+  "framesPerMotion": 4,
+  "source": "art/monster/06-패스트푸드",
+  "notes": []
+}

@@ -1,0 +1,22 @@
+{
+  "authority": "working",
+  "contentVersion": "hunt-ticket-gacha-v1",
+  "eventId": "hunt-ticket-gacha-2026-09",
+  "displayName": "사냥 이벤트 뽑기",
+  "startsAt": "2026-09-21T00:00:00+09:00",
+  "endsAt": "2026-09-28T00:00:00+09:00",
+  "accrual": {
+    "secondsPerTicket": 180,
+    "dailyCap": 100,
+    "maxHeartbeatGapSeconds": 60
+  },
+  "outcomes": [
+    { "kind": "PRIZE", "prizeId": "prize.gifticon.cyburger", "millionths": 200 },
+    { "kind": "GEM_BOX", "quantity": 1, "millionths": 100000 },
+    { "kind": "COSMETIC_TICKET", "quantity": 1, "millionths": 100000 },
+    { "kind": "RICE", "minQuantity": 10, "maxQuantity": 100, "millionths": 799800 }
+  ],
+  "prizes": [
+    { "prizeId": "prize.gifticon.cyburger", "displayName": "싸이버거 기프티콘", "stock": 5, "perAccountLimit": 1 }
+  ]
+}

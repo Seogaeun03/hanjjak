@@ -1,0 +1,28 @@
+{
+  "slug": "onion-ring",
+  "name": "어니언링",
+  "status": "game-ready",
+  "image": "onion-ring-sprite-sheet-5x4.png",
+  "frameSize": [
+    486,
+    486
+  ],
+  "sheetSize": [
+    1944,
+    2430
+  ],
+  "grid": [
+    4,
+    5
+  ],
+  "order": [
+    "idle",
+    "move",
+    "attack",
+    "hit",
+    "defeat"
+  ],
+  "framesPerMotion": 4,
+  "source": "art/monster/06-패스트푸드",
+  "notes": []
+}

@@ -1,0 +1,22 @@
+/* 겹쳐 뜨는 창은 스스로 화면을 덮고 장막까지 그린다. 여기서는 틀만 비워 두고 자리를
+   화면 전체로 넓힌다. 장막을 두 번 그리지 않도록 ::backdrop 은 투명하게 남긴다.
+   이 틀에는 filter·backdrop-filter 를 걸지 않는다. 걸면 안쪽 position: fixed 의
+   기준이 화면이 아니라 이 틀이 되어 포함 블록이 하나 더 생긴다. 안쪽 화면은 이미
+   자기 장막에 backdrop-filter 를 걸고 있고, 그래서 알림 창과 상단 경고가
+   `top: calc(50% - 50dvh)` 로 화면 모서리를 다시 잡는다 — NoticeDialog.css,
+   TopAlert.css, OverlayViewportRegression.test.ts 참고. 여기서 한 겹 더 만들면
+   그 보정이 한 번 더 어긋난다. */
+.global-overlay-window {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+  color: inherit;
+  background: transparent;
+}
+
+.global-overlay-window::backdrop { background: transparent; }

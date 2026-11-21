@@ -1,0 +1,49 @@
+.event-lifecycle-screen {
+  position: fixed;
+  inset: 0;
+  isolation: isolate;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+  overflow: auto;
+  color: #3d2518;
+  background: #4c2c19 url("../../shared/assets/onboarding-cozy-pixel/onboarding-guild-background.png") center / cover no-repeat;
+  font-family: var(--hanjjak-font-ui);
+}
+.event-lifecycle-screen::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(rgba(58, 29, 13, .08), rgba(43, 20, 8, .22));
+  box-shadow: inset 0 0 4vw rgba(64, 31, 10, .18);
+  content: "";
+  pointer-events: none;
+}
+.event-lifecycle-card {
+  position: relative;
+  width: min(680px, 100%);
+  padding: clamp(38px, 7vw, 72px);
+  border: 6px solid #6d3b23;
+  border-radius: 28px;
+  background: rgba(255, 244, 216, .96);
+  box-shadow: 0 24px 70px rgba(57, 25, 10, .45);
+  text-align: center;
+}
+.event-lifecycle-eyebrow { color: #a65a38; font-size: 13px; font-weight: 900; letter-spacing: .16em; }
+.event-lifecycle-card h1 { margin: 18px 0; font-size: clamp(32px, 6vw, 54px); }
+.event-lifecycle-card p { margin: 0 auto 30px; max-width: 520px; color: #79503a; font-size: 18px; line-height: 1.7; }
+.event-lifecycle-countdown { display: grid; gap: 7px; width: min(400px, 100%); margin: -10px auto 30px; padding: 15px 20px; border: 2px solid rgba(109, 59, 35, .28); border-radius: 14px; background: rgba(255, 255, 255, .45); }
+.event-lifecycle-countdown small { color: #a65a38; font-size: 13px; font-weight: 900; letter-spacing: .08em; }
+.event-lifecycle-countdown strong { color: #4c2c19; font-size: clamp(22px, 4vw, 32px); font-variant-numeric: tabular-nums; }
+.event-lifecycle-card a,
+.event-lifecycle-card button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; padding: 0 24px; border: 0; border-radius: 12px; color: white; background: #bf5c42; font: inherit; font-weight: 800; text-decoration: none; cursor: pointer; }
+.event-lifecycle-resume { display: block; margin: -14px 0 22px; color: #98705a; }
+.event-lifecycle-screen.daily-restricted .event-lifecycle-card { width: min(760px, 100%); }
+.event-lifecycle-screen.daily-restricted .offline-reward-panel { position: static; width: min(440px, 100%); margin: 24px auto 0; text-align: left; }
+.event-lifecycle-screen.daily-restricted .offline-reward-panel h2,
+.event-lifecycle-screen.daily-restricted .offline-reward-panel p { text-align: center; }
+@media (max-width: 560px) {
+  .event-lifecycle-screen { padding: 14px; }
+  .event-lifecycle-card { padding: 38px 22px; }
+}

@@ -1,0 +1,42 @@
+/* 보상은 한 줄에 종류·항목·수량·삭제가 나란히 선다. 줄이 늘어도 표처럼 읽힌다. */
+.reward-rows { display: grid; gap: 8px; margin-top: 12px; }
+
+.reward-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.reward-row select,
+.reward-row input {
+  flex: 1 1 140px;
+  min-width: 0;
+}
+
+.reward-row input[type="number"] { flex: 0 1 100px; }
+.reward-row button { flex: 0 0 auto; }
+/* 고를 항목이 없는 보상은 안내 한 줄이 선택 상자 자리를 대신한다. */
+.reward-row .reward-fixed { flex: 1 1 140px; min-width: 0; font-size: 12px; opacity: 0.72; }
+
+.recipient-picker { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .75fr); gap: 12px; }
+.recipient-results, .recipient-selected { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 7px; min-height: 72px; max-height: 220px; overflow-y: auto; border: 1px solid #dbe4e0; border-radius: 10px; padding: 10px; background: #f8faf9; }
+.recipient-results button { border: 1px solid #cbd8d2; border-radius: 8px; padding: 7px 9px; color: #385047; background: #fff; cursor: pointer; }
+.recipient-results button.selected { opacity: .55; cursor: default; }
+.recipient-selected strong { flex-basis: 100%; }
+.recipient-selected > span { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; padding: 5px 8px; color: #285744; background: #dff2e9; }
+.recipient-selected > span > button { border: 0; padding: 0 2px; color: inherit; background: transparent; cursor: pointer; }
+@media (max-width: 860px) { .recipient-picker { grid-template-columns: 1fr; } }
+
+.reward-add {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.user-management textarea {
+  width: 100%;
+  resize: vertical;
+  font: inherit;
+}

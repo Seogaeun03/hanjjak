@@ -1,0 +1,9 @@
+/* 스킬 그림은 전투 HUD 쿨타임 줄과 거래소 스킬북 칸도 쓴다. 첫 화면에 남는다. */
+.skill-artwork { display: block; width: var(--skill-card-art-size); height: var(--skill-card-art-size); object-fit: contain; image-rendering: pixelated; }
+.skill-artwork.compact { width: clamp(42px,4.4vw,58px); max-width: 100%; height: clamp(42px,4.4vw,58px); max-height: 100%; }
+.skill-artwork-missing { display: grid; place-items: center; align-content: center; gap: 2px; border: 4px solid #c6cbd4; border-radius: 17px; color: #d8dee7; background: #252a31; box-shadow: inset 0 0 0 3px #14171b; text-align: center; }
+.skill-artwork-missing b { font-size: 34px; line-height: .9; }
+.skill-artwork-missing small { font-size: 9px; font-weight: 900; }
+@media (max-width: 1060px) {
+  .skill-artwork.compact { width: 40px; height: 40px; }
+}

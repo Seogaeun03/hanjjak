@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["authority", "contentVersion", "eventId", "displayName", "startsAt", "endsAt", "accrual", "outcomes", "prizes"],
+  "additionalProperties": false,
+  "properties": {
+    "authority": { "enum": ["working", "applied"] },
+    "contentVersion": { "type": "string", "minLength": 1 },
+    "eventId": { "type": "string", "minLength": 1 },
+    "displayName": { "type": "string", "minLength": 1 },
+    "startsAt": { "type": "string", "minLength": 1 },
+    "endsAt": { "type": "string", "minLength": 1 },
+    "accrual": {
+      "type": "object",
+      "required": ["secondsPerTicket", "dailyCap", "maxHeartbeatGapSeconds"],
+      "additionalProperties": false,
+      "properties": {
+        "secondsPerTicket": { "type": "integer", "minimum": 1 },
+        "dailyCap": { "type": "integer", "minimum": 1 },
+        "maxHeartbeatGapSeconds": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "outcomes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["kind", "millionths"],
+        "additionalProperties": false,
+        "properties": {
+          "kind": { "enum": ["PRIZE", "COSMETIC_TICKET", "GEM_BOX", "RICE"] },
+          "millionths": { "type": "integer", "minimum": 0, "maximum": 1000000 },
+          "prizeId": { "type": "string", "minLength": 1 },
+          "quantity": { "type": "integer", "minimum": 1 },
+          "minQuantity": { "type": "integer", "minimum": 1 },
+          "maxQuantity": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "prizes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["prizeId", "displayName", "stock", "perAccountLimit"],
+        "additionalProperties": false,
+        "properties": {
+          "prizeId": { "type": "string", "minLength": 1 },
+          "displayName": { "type": "string", "minLength": 1 },
+          "stock": { "type": "integer", "minimum": 0 },
+          "perAccountLimit": { "type": "integer", "minimum": 1 }
+        }
+      }
+    }
+  }
+}

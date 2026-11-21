@@ -1,0 +1,21 @@
+{
+  "authority": "working",
+  "contentVersion": "liveops-configuration-test-fixture",
+  "eventId": "liveops-configuration-test",
+  "displayName": "배포 스위치 시험용 이벤트",
+  "startsAt": "2030-01-01T00:00:00+09:00",
+  "endsAt": "2030-01-08T00:00:00+09:00",
+  "accrual": {
+    "secondsPerTicket": 180,
+    "dailyCap": 100,
+    "maxHeartbeatGapSeconds": 60
+  },
+  "outcomes": [
+    { "kind": "PRIZE", "prizeId": "prize.fixture", "millionths": 200 },
+    { "kind": "COSMETIC_TICKET", "quantity": 1, "millionths": 50000 },
+    { "kind": "RICE", "minQuantity": 10, "maxQuantity": 100, "millionths": 949800 }
+  ],
+  "prizes": [
+    { "prizeId": "prize.fixture", "displayName": "시험용 경품", "stock": 3, "perAccountLimit": 1 }
+  ]
+}

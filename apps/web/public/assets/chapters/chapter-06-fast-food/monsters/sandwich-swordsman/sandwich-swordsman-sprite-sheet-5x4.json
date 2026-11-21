@@ -1,0 +1,28 @@
+{
+  "slug": "sandwich-swordsman",
+  "name": "샌드위치 검사",
+  "status": "game-ready",
+  "image": "sandwich-swordsman-sprite-sheet-5x4.png",
+  "frameSize": [
+    492,
+    492
+  ],
+  "sheetSize": [
+    1968,
+    2460
+  ],
+  "grid": [
+    4,
+    5
+  ],
+  "order": [
+    "idle",
+    "move",
+    "attack",
+    "hit",
+    "defeat"
+  ],
+  "framesPerMotion": 4,
+  "source": "art/monster/06-패스트푸드",
+  "notes": []
+}

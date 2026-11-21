@@ -1,0 +1,59 @@
+{
+  "version": "cozy-pixel-v2",
+  "generatedAt": "2026-09-11",
+  "selection": {
+    "scene": "dungeon-selection-book.png",
+    "bookmarks": {
+      "udon": "ui/bookmark-udon.png",
+      "quailEggJangjorim": "ui/bookmark-quail-egg-jangjorim.png",
+      "acornJelly": "ui/bookmark-acorn-jelly.png"
+    },
+    "horizontalTabs": {
+      "spriteSheet": "ui/dungeon-tabs-v3.png",
+      "frameOrder": ["udon", "quailEggJangjorim", "acornJelly"],
+      "frameSize": [720, 360]
+    },
+    "horizontalTabIcons": {
+      "udon": "icons/icon-dungeon-tab-udon-v1.png",
+      "quailEggJangjorim": "icons/icon-dungeon-tab-quail-egg-v1.png",
+      "acornJelly": "icons/icon-dungeon-tab-acorn-v1.png"
+    },
+    "openRibbon": "ui/dungeon-open-ribbon-v1.png",
+    "actionButtons": {
+      "sourceSheet": "ui/dungeon-action-buttons-v1.png",
+      "challenge": "ui/dungeon-challenge-button-v1.png",
+      "sweep": "ui/dungeon-sweep-button-v1.png"
+    }
+  },
+  "battle": {
+    "backgrounds": {
+      "udon": "backgrounds/battle-udon.png",
+      "quailEggJangjorim": "backgrounds/battle-quail-egg-jangjorim.png",
+      "acornJelly": "backgrounds/battle-acorn-jelly.png"
+    },
+    "timer": "ui/battle-timer-shell.png",
+    "skillCard": "ui/skill-card-shell.png",
+    "victoryBadge": "ui/result-victory-badge.png",
+    "defeatBadge": "ui/result-defeat-badge.png"
+  },
+  "bosses": {
+    "udon": "bosses/udon",
+    "quailEggJangjorim": "bosses/quail-egg-jangjorim",
+    "acornJelly": "bosses/acorn-jelly"
+  },
+  "icons": {
+    "entryTicket": "icons/icon-entry-ticket.png",
+    "gemChest": "icons/icon-gem-chest.png",
+    "sweepBroom": "icons/icon-sweep-broom.png",
+    "dungeonLock": "icons/icon-dungeon-lock-large-v1.png",
+    "dungeonOpenClock": "icons/icon-dungeon-open-clock-v1.png",
+    "dungeonOpenSun": "icons/icon-dungeon-open-sun-v1.png",
+    "dungeonRankGold": "icons/icon-dungeon-rank-gold-v1.png",
+    "dungeonRankSilver": "icons/icon-dungeon-rank-silver-v1.png",
+    "dungeonRankBronze": "icons/icon-dungeon-rank-bronze-v1.png",
+    "survival": "icons/icon-survival.png",
+    "berserk": "icons/icon-berserk.png",
+    "armored": "icons/icon-armored.png"
+  },
+  "effects": "effects/attack-sheets.json"
+}
