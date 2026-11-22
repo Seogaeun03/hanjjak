@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/hanjjak-logo.png" width="220" alt="한짝 — 젓가락 키우기 원본 로고"></p>
 
-<img src="assets/hanjjak-play.jpg" width="100%" alt="한짝 실제 게임 플레이 화면">
+<img src="assets/hero.gif" width="100%" alt="한짝 치장 화면: 젓가락 캐릭터가 치장 세트를 차례로 갈아입는다">
 
 ## 스테이지 전투와 캐릭터 성장
 
