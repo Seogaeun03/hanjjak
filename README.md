@@ -1,5 +1,17 @@
 # 한짝
 
+<p align="center"><img src="assets/hanjjak-logo.png" width="220" alt="한짝 — 젓가락 키우기 원본 로고"></p>
+
+<img src="assets/hanjjak-play.jpg" width="100%" alt="한짝 실제 게임 플레이 화면">
+
+## 실제 동작 영상
+
+치장 선택·착용 변경를 보여주는 실제 프로젝트 녹화입니다. (약 12초, 무음)
+
+[![치장 선택·착용 변경 움직이는 미리보기](assets/demo.gif)](https://github.com/Seogaeun03/hanjjak/blob/main/assets/demo.mp4)
+
+[동영상 보기 · MP4](https://github.com/Seogaeun03/hanjjak/blob/main/assets/demo.mp4) · [원본 화질로 재생·다운로드](https://raw.githubusercontent.com/Seogaeun03/hanjjak/main/assets/demo.mp4)
+
 캐릭터 성장·전투·치장 수집을 즐기는 웹 방치형 게임입니다. 팀이 GitLab에서 개발하고 배포한 프로젝트의 코드와 게임 자료를 공개용으로 정리했습니다.
 
 ## 주요 기능과 구성
