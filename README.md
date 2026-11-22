@@ -21,6 +21,14 @@ https://github.com/user-attachments/assets/86642eeb-62c6-48cf-91d5-1f8fefddea72
 
 캐릭터 성장·전투·치장 수집을 즐기는 웹 방치형 게임입니다. 팀이 GitLab에서 개발하고 배포한 프로젝트의 코드와 게임 자료를 공개용으로 정리했습니다.
 
+## 장비별 능력치와 강화 재료
+
+장갑·갑옷·무기를 선택하면서 장비 정보를 비교합니다. 프로젝트의 장비 UI를 테스트 데이터로 실행해 녹화했습니다.
+
+![장비별 능력치와 강화 재료](assets/service-tour.gif)
+
+[녹화 원본 보기 · MP4](https://raw.githubusercontent.com/Seogaeun03/hanjjak/main/assets/service-tour.mp4)
+
 ## 주요 기능과 구성
 
 - 계정·캐릭터와 스테이지 전투
