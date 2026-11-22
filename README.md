@@ -4,6 +4,14 @@
 
 <img src="assets/hanjjak-play.jpg" width="100%" alt="한짝 실제 게임 플레이 화면">
 
+## 스테이지 전투와 캐릭터 성장
+
+스테이지 1-1에서 자동 공격으로 몬스터를 처치하고 경험치를 얻어 1레벨에서 2레벨로 성장하는 플레이입니다. 로컬 게임 서버에서 시연 캐릭터의 시작 경험치를 990/1,000으로 설정했습니다. 몬스터 한 마리당 경험치 9와 처치 보상은 게임 서버가 전투 결과에 따라 지급합니다.
+
+![스테이지 전투와 캐릭터 성장](assets/stage-growth.gif)
+
+[영상 보기 · MP4](https://raw.githubusercontent.com/Seogaeun03/hanjjak/main/assets/stage-growth.mp4)
+
 ## 실제 동작 영상
 
 치장 선택·착용 변경를 보여주는 실제 프로젝트 녹화입니다. (약 12초, 무음)
